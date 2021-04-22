@@ -1,0 +1,3853 @@
+adapt the java wrapper in nd4j generate with javacpp
+remove lengthlong ( # 236 )
+merge branch 'master ' into extension
+resolve # 200 refactored method in flexibleadapter
+add audit category
+merge branch 'master ' of github.com : apereo/cas
+update dependency com.github.oshi
+add test case for eduperson-targeted-id generation
+merge branch 'credential-fix ' into 6.2.x
+rename delegate handler
+merge branch 'master ' of github.com : apereo/cas
+tweak pom generation for webapps
+add deprecation warnings/tags to relevant component
+add description to consentreminderoptions enum ( # 4055 )
+remove unused serviceregistry.findservicebyid ( string ) method ( # 4072 )
+add test
+add test
+merge branch 'master ' of github.com : apereo/cas
+build support for jmx exposure
+add test
+add pac4j authnrequest embed signature ( # 4047 )
+update dependency com.twilio.sdk
+add test
+add aws cognito support
+merge branch 'master ' of github.com : apereo/cas
+exclude xerces dependency from default include ( # 3669 )
+add test
+update test
+remove duo dependency a default
+add ldap test case for authn-provider of endpoint
+merge branch 'master ' of github.com : apereo/cas
+allow at a jwts can disable signing/encryption per service
+# 3679 erd model refactoring . join generator
+merge remote-tracking branch 'origin/devel ' into devel
+merge pull request # 10196 from dbeaver/text-color # 5534
+merge pull request # 1395 from sargul/devel
+fix formatting
+merge branch 'devel ' of http : //github.com/dbeaver/dbeaver.git into devel
+merge remote-tracking branch 'origin/devel ' into devel
+attribute trasnformers model
+merge pull request # 8939 from dbeaver/postgretrigger
+merge pull request # 1079 from sargul/devel
+help ui refactoring
+merge branch 'devel ' into 2556-postgres-debug
+return last change due to test on sqllight db
+merge pull request # 7 from serge-rider/devel
+merge pull request # 8632 from dbeaver/dialog # 8629
+merge remote-tracking branch 'origin/devel ' into devel
+merge remote-tracking branch 'origin/devel ' into devel
+merge remote-tracking branch 'origin/devel ' into devel
+# 1599 mock data . save and restore the select attribute .
+merge remote-tracking branch 'origin/devel ' into devel
+merge branch '1599-mock-data ' and 'devel ' of http : //github.com/dbeaver/dbeaver into 1599-mock-data
+add author and remark into firebird plan source
+merge remote-tracking branch 'origin/devel ' into devel
+merge remote-tracking branch 'origin/devel ' into devel
+merge remote-tracking branch 'origin/devel ' into devel
+merge pull request # 4789 from tchibatron/fixcolorforconnection
+merge pull request # 6780 from kai-morich/hana01
+merge pull request # 3948 from bytehamster/authentication-button-visibility
+adjust regext to ignore x : y timecodes
+speed up notification update
+move opml package
+merge branch 'develop ' into exo-player
+merge pull request # 941 from mfietz/issue/940-user-preferences
+merge pull request # 4441 from bytehamster/new-logo
+merge pull request # 3935 from bytehamster/black-icons
+recycle viewholders throughout the app
+remove comment per @ mfietz feedback .
+request audio focus on android o
+skip intro and end per feed ( # 3975 )
+merge pull request # 3451 from bytehamster/fix-no-browser-installed
+reset playback volume when go to sleep
+merge pull request # 3715 from bytehamster/speed-up-search
+merge pull request # 2944 from abendebury/develop
+merge branch 'master ' into develop
+merge pull request # 3572 from bytehamster/downloadservice-refactoring
+remove unused code
+merge branch 'migration ' into develop
+change the action title to send ...
+merge pull request # 2095 from mfietz/issue/2070-sleep-time-shake
+merge pull request # 1179 from tomhennen/export_updates
+make subscription view look nice
+remove the stopservice ( ) per review ( which might unnecessarily
+add 0.75 to default playback speed list
+merge branch 'develop ' into fix-2359
+merge pull request # 4104 from bytehamster/toast-to-snackbar
+merge pull request # 3813 from bytehamster/shownotes-webview
+merge pull request # 41 from patheticpat/feedburner
+merge branch 'move-to-top ' of git : //github.com/tomhennen/antennapod into tomhennen-move-to-top
+merge pull request # 1475 from mfietz/issue/1473-npe-downloadservice
+merge pull request # 2532 from antennapod/execute_on_executor
+merge pull request # 3860 from bytehamster/fix-seeking-when-streaming
+merge pull request # 2856 from antennapod/bugfix/2855-ias-external-player
+move objectinputstream initialization to call-site
+merge pull request # 618 from zendesk/tcuthbertson/schema-order
+merge branch 'master ' into smferguson_basic_metrics
+rebuild doc
+merge branch 'master ' into bootstrap_comments
+merge pull request # 243 from zendesk/gis_extensions
+merge pull request # 685 from geoff-addepar/embedded
+keep a cache of column offset
+add connectionpool
+merge pull request # 505 from thomasdziedzic/kinesis
+remove method getobjectfromresultset
+merge pull request # 211 from zendesk/mysql_test_1
+rename filterv2 - > filter
+merge branch 'master ' into supported-row-query
+add initial skylark byte code generation code .
+add a featurepolicyconfiguration for support limited feature rollouts .
+fold the jvm configuration fragment into javaconfiguration .
+simplify spawnrunner interface
+remove skylint
+remove configurationfactory a part of the static configuration cleanup .
+inject the product name in the constructor where need
+remove the flag ` incompatible_disallow_filetype `
+add apple framework support to cccompilationcontext
+add skylarkimportlookupfunction to workspacefilefunction .
+use one writer for generate r.java source file
+extract a common abstractspawnstrategy parent class
+introduce ninja_build for the correct composition of target .
+move shell executable to it own configuration fragment .
+avoid implicit iteration over nested set
+move all the resource processing tool into a `` busybox '' .
+propagate skylark flag to workspace and repo rule
+remove support for non-android_sdk android sdks .
+replace @ executionstrategy with module-based registration .
+expose c++ action name to skylark
+introduce a specific action_config for link nodeps dynamic library
+expect shell path
+remove legacy `` fake '' branch from cc_binary implementation
+add gen jar and manifest proto output .
+add coverage support for java test .
+use an annotation preprocessor to validate skylarkconfigurationfield .
+eliminate buildconfiguration.getshortname ( ) .
+rewrite the buildeventservicetransport
+migrate remain java skylark type to skylarkbuildapi
+add internal data bind support to bazel , although this
+include more information about build event ' reference local file .
+introduce remotable attribute to repository_rule
+rename dex2oatprovider to androiddex2oatinfo and
+remove resourcecontainer
+throw an evalexception on skylarknestedset type mismatch
+remove targetpatternevaluator
+remove support for protocolbuffers2 .
+expose new c++ api to skylark
+avoid implicit iteration over nestedset
+remove dict.of ( k , v ) constructor
+add a maven_server rule
+move nestedset expansion logic .
+unify input prefetching
+remove unused/redundant plumbing for androidaaptversion
+remove all non-essential call site of method on jvm .
+introduce skylarkrepositorymodule
+add py2/3 mode migration flag to -- all_incompatible_changes
+remove all direct us of skyframeexecutor.reporter .
+create bazel coverage report action .
+inline some actioncontextprovider class into their module
+remove ismainrepo from root .
+expose pyruntimeprovider to starlark a pyruntimeinfo
+migrate callsites of cppconfiguation # getcompiler , # gettargetlibc , # getcpu to
+add launch_storyboard for io bundle ( apps , extension ) .
+add android idl jar output .
+add an `` alias '' rule .
+remove unused package-loading related code from cppconfiguration
+rationalize local resource acquisition
+introduce a skyframe function : actionenvironmentfunction
+parse and load starlark-defined option in full package-path form .
+move testattempt and testresult into analysis/test .
+simplify skylark test
+add executable option to http_file
+remove transitionmode from rulecontext prerequisite call .
+make leaf level autocodec marshallers into runtime codecs .
+rename $ precondition to $ gson $ precondition and $ type to $ gson $ type .
+add a visualization
+merge origin/master
+create method for different multiname type
+remove character functionality
+fixed some tag ,
+edit property in list and array
+merge branch 'iggy_improve ' into dev
+merge origin/master
+merge origin/master
+integrate sven update
+merge branch 'pr-1011 '
+fix homepage internal link
+remove internal link from release_notes_old.md ...
+merge branch 'pr-2395 '
+fix nc test
+consider annotation type
+deprecate filter
+improve example for mistypedcdatasection
+merge branch 'pr-570 '
+merge branch 'pr-1068 '
+merge branch 'pr-130 '
+fix icon decentering bug , increase icon size a tad
+rename some test data file
+reuse isnullcondition
+merge branch 'master ' into designer-clear-toolbar
+introduce abstractcontroller
+add new global variable name to safe resource
+merge branch 'pr-1141 '
+add java 13 support
+rename methodlike to methodlikenode
+merge branch 'master ' into issue-1051
+merge branch 'toolchains '
+add the include derive file option
+upgrade maven-javadoc-plugin to 3.1.1
+migrate usage of stringmultiproperty
+add islocal ( ) to astclassorinterfacedeclaration
+merge branch 'master ' into deprecate-report-methods
+merge branch 'jeffhube-cce ' into issue-1396
+restrict root element to ` pmd `
+clean up import statement , remove a couple unused variable
+allow helper a a suffix
+refactored the descriptor factory onto the property descriptor themselves .
+merge branch 'pr-2345 '
+remove maven-plugin-pmd-build . this have be move to https : //github.com/pmd/build-tools
+add an apex module ( pmd-apex )
+update release note
+merge branch 'pr-653 '
+merge branch 'pr-1180 '
+add miss file
+merge branch 'pr-2690 '
+merge branch 'pr-1254 '
+fix lambda qname infix in enum constant
+merge branch 'pr-1192 '
+reduce cache size
+inlined some more test
+merge branch 'checksum-aware ' of http : //github.com/monits/pmd into pr-145
+add a minimal test for regexproperty
+merge remote-tracking branch 'pmd/master '
+fix package exploration in jar
+fix multi value property documentation for rule
+clean up problem pmd find
+add getxpathnodename to the node interface
+make generic visitor superclass
+reorganize rule into category
+merge branch 'tiobe-tiobe/fix_utf8_escape_in_objc_string_literals '
+merge branch 'issue24 ' into quartz-2.2.x
+use 8249621 to ignore 8 jvmci test
+deprecate serialversionuid field in interface
+enhance the security libraries to record event of interest
+disable tl 1.0 and 1.1
+create test for swingset2 main window
+remove `` compatibility '' feature from table.java
+rewrite com/sun/jdi shell test to java version - step3
+improve searchindexitem
+add @ functionalinterface annotation to privilegedaction and privilegedexceptionaction
+suppress warning on non-serializable instance field in java.sql . * module
+use reproducible random in
+re-examine synchronization usage in http and http protocol handler
+merge branch 'master ' of http : //github.com/usherandroid/android-beacon-library into usherandroid-master
+add some final modifier
+add ability to set background mode in service
+merge branch 'master ' into scheduled-job-scanning
+merge branch 'master ' of http : //github.com/aslody/virtualapp
+try 8.0
+implement main ui and selectapp ui .
+add switch test
+improve class context support
+improve side effect detection
+add vm test harness and some token test
+implement switch
+commit everything before rewrite
+use full typeparameterdeclarations instead of name
+create break with value
+merge branch 'master ' into issue_2443_jep_368
+merge remote-tracking branch 'upstream/master ' into issue9inference
+expose usage of diamond operator
+add explanation about the difference between toast and getwrappednode
+deprecate evil string constructor
+merge branch 'master ' into issue_882_method_signature
+change naming ...
+remove emptymemberdeclaration
+add utils class
+make type not parametric
+merge branch 'master ' into revert_new_javadoc
+merge branch 'master ' into issue141
+merge pull request # 782 from matozoid/csm_eol_fix
+merge branch 'master ' into minor_things
+add redlectioninterfacedeclarationtest
+create csmelement hierarchy
+merge pull request # 674 from matozoid/issue_650_missing_optionals
+merge branch 'master ' into issue_2647_eol
+add typednode interface
+rename signof in signum
+merge remote-tracking branch 'javaparser/master ' into issue_441_ellipsis_arraytype
+generate clonevisitor
+hide setasparentof
+merge branch 'master ' into issue_200_javadocced_enum_constants
+remove typeusage.prettyprint
+merge pull request # 1994 from ftomassetti/issue1568
+merge pull request # 1733 from ftomassetti/namelogichelpermethods
+rename torawstring and toescapedstring to asrawstring and asescapedstring
+create logic module
+merge branch 'master ' into issue_1012_1020_keywords
+consider type parameter and varargs combination
+rename abstracttest to abstractsymbolresolutiontest
+add packagename/classname method to interface
+merge branch 'master ' of git : //github.com/matozoid/java-symbol-solver into matozoid-master
+merge branch 'master ' into issue_1558_parse_module
+merge branch 'master ' into issue1806
+merge pull request # 406 from mercyblitz/master
+update the log information print by conditional
+update default group to default_group
+merge pull request # 279 from fangjian0423/master
+merge remote-tracking branch 'upstream/master ' into binder-dev
+merge remote-tracking branch 'upstream/master ' into binder-dev
+update maven coordinate & doc
+update orderly message log level to info
+add test case
+upgrade sentinel version to 1.8.0
+check the health status of sentinel datasource use abstractdatasource # loadconfig .
+use eclipse code formatter to format code
+merge pull request # 1667 from mercyblitz/master
+introduce new facade for extension and lightmethod
+simplify code
+use intellij servicemanager to access `` project '' -scoped data
+merge branch 'add-value ' of http : //github.com/twillouer/lombok-intellij-plugin-1 into twillouer-add-value
+disable the correct test
+add ptransformoverride.get_replacement_transform_for_applied_ptransform ( ) ( # 12656 )
+fix avrocoder serialisation by introduction of avrogenericcoder specialisation
+remove shutdownsourcesonfinalwatermark flag
+fix some lint bug .
+disable two flaky test ( beam-8035 , beam-9164 )
+ensure beam-sdks-java-bom.pom be sign during release
+merge pull request # 10522 from aaltay/awslint
+add a blog post for apache beam 2.24.0 . ( # 12745 )
+rename method to be more appropriate
+downgrade flink version to 1.9 for nexmark and validatesrunner ''
+remove jna dependcy
+merge pull request # 11921 from ibzib/beam-10194
+modify the streamingcache to subclass the cachemanager
+integrate progress reporting for splittable dofns .
+count empty splitpoints a nil in go datasource .
+pas pipeline option from caller to expansion service ( # 11574 )
+fix rawtypes in filesystemregistrar and implementation
+miss a few spot .
+fixed some io url on website
+ignore fhiriowriteit testfhirio_import instead of fhirioreadit
+fix macos ib record test
+merge branch 'master ' into release-v2.1.10-dev
+allow method call decomposing in inlinefunctions
+fix incorrect attachment of jsdoc comment to node .
+take advantage of node # matchesname where possible .
+move integrationtestcase into integration package
+replace us of ` testcase ` method with us of truth .
+make nested class that can be static static .
+make purefunctionidentifier compatible with destructuring assignment .
+fix some more linter warning in the subdirectory .
+migrates `` test/com/google/javascript/jscomp/ * .java '' to use junit4 runner and annotation .
+move conversion of super ( ) constructor call to after check .
+disable inlinevariables when language_out be es6+ , for now .
+add template parameter for iter/generator return value and next ( value )
+merge pull request # 1348 from chadkillingsworth/commonjs-add-const
+fix suppression check in typevalidator .
+merge pull request # 1409 from dominator008/commandlinerunner
+refactored the scopecreator within the compiler
+merge pull request # 411 from usmonster/master
+add boatload of test .
+tighten the strict miss property check .
+add support for correctly handle goog.require inside a goog.module . ''
+create a new token type : token.root
+migrates `` test/com/google/javascript/jscomp/ * .java '' to use junit4 runner and annotation .
+disinherit `` tests/com/google/javascript/jscomp/ .... java '' from ` testcase ` .
+remove explicit flush from http2 encoders , decoder & flow-controllers
+add support for method chain to bytebuf
+merge remote-tracking branch 'upstream/master '
+make inner class static where possible .
+add a miss close ( selectionkey ) call
+add bytebuf.unsafe.discardsomereadbytes ( ) to reduce discardreadbytes ( )
+fix inspector warning
+make bytebuf an abstract class rather than an interface
+reduce memory copy in spdy compression implementation .
+fix invalid memory access in aio writes
+make channelconfig.setautoread ( ) trigger channel.read ( ) if autoread be previously false
+simplify the construction of multi-threaded selector event loop
+improve the api design of http2orhttpchooser and spdyorhttpchooser
+merge pull request # 132 from veebs/websocketversion
+merge pull request # 633 from jestan/master
+add channelmetadata and remove unnecessary disconnect ( ) impls
+fix error report by javadoc
+ignore frame for stream that may have previously exist .
+add auto_close option
+make method 'static ' where it possible
+fix checkstyle problem
+merge pull request # 384 from lordfokas/development
+fix virtual method variant of invokedynamic reloading
+change the way to create newgroupchanneltable ( # 1412 )
+add unit test for mqclientapiimpl
+fix logger appender unit test which cost too long
+merge branch 'master ' into master
+rename credential helper exception ( # 884 )
+evaluate settings.xml later , and per id ( # 1712 )
+rename nbuildstepsrunner to buildstepsrunner and remove original class ( # 1124 )
+add core change for default main argument ( # 358 )
+remove unnecessary cache interface ( # 1670 )
+remove docker context generator ( # 1264 )
+remove setcredhelper , setknownregistrycredentials . ( # 851 )
+merge branch 'master ' of http : //git-wip-us.apache.org/repos/asf/incubator-cordova-android into cordovawebview
+remove incorrect usage of alertdialog.builder.create
+move config.xml parse into it own config class
+merge branch 'pluggable_webview ' into 4.0.x
+revert `` defaults.xml : add androidlaunchmode preference ''
+add apache header to the test on the branch
+fix window appinfo.jar
+move sdk class
+remove comment with copyright
+go anonymous field initial support
+add gotestingdeclarationsinspection
+rework resolve for multiply return
+join test configuration
+fix some easy to fix error
+upgrade jetty version to 9.4.15.v20190215
+merge branch 'nifi-1010 '
+merge branch 'develop ' into listhdfs
+merge branch 'nifi-713 ' of http : //github.com/rickysaltzer/nifi into nifi-713
+add listazuredatalakestorage
+manage parameter and parameter context
+merge remote-tracking branch 'upstream/develop ' into nifi-solr-bundle
+merge branch 'v0.1.61-androidx-hotfixes ' into feature/base_flutter_1.12_upgrade_for_androidx
+merge pull request # 5105 from psiinon/develop
+fix potential memory leak in the scanner
+merge pull request # 3326 from thc202/add-on-semver
+merge pull request # 6278 from psiinon/feature/alertref
+add pr detail
+merge pull request # 5082 from denniskniep/feature/messagechangedlistener
+fix test fail in window
+invoke application
+fix zap-api-scan.py usage
+merge pull request # 5192 from denniskniep/feature/fixhtmlreport
+remove unused menu constructor
+move alert related functionality to alert package
+differentiate the source of alert
+merge pull request # 2958 from thc202/session-dialog-panels
+merge pull request # 2604 from thc202/rm-extension-constructors
+merge pull request # 3665 from mqliang/json-report
+deprecate and address dependence
+merge pull request # 1998 from psiinon/develop
+merge branch 'master ' of http : //github.com/jochen314/scribejava into jochen314-master
+improve the code
+merge branch 'pr-858 ' of http : //github.com/zawn/scribejava into zawn-pr-858
+introduce memorypolicy api
+merge pull request # 50 from square/jw/uri
+merge pull request # 1757 from square/jrod/test-logging
+remove unnecessary test exception
+remove internal downloader abstraction .
+rename target to bitmaptarget and target2 to target
+add only min or only max value for datepicker
+merge branch 'calendar_date_picker_dark ' of http : //github.com/tyderion/android-betterpickers into tyderion-calendar_date_picker_dark
+expose channelcredentials for the various negotiator
+introduce nameresolver.helper and deprecate the params on newnameresolver ( ) ( # 5345 )
+add some miss final modifier on generated code
+populate effective deadline to clientstream
+add status message to all status
+remove streamstate and use inboundphase/outboundphase instead
+add managedchannelbuilder.defaultloadbalancingpolicy ( ) ( # 5135 )
+move the pick-first logic from simpleloadbalancer to transportset .
+start a new server for each test method . ( # 3816 )
+add log id .
+deprecate helper.updatesubchanneladdresses ( ) and add equivalent on subchannel ( # 5802 )
+use well generic on service config
+add channelcredentials
+fix unused variable
+move okhttp to abstractstream2
+delete thrift
+replace envoy 's downstreamtlscontext with internally define downstreamtlscontext ( # 7131 )
+organize attribute with annotation . ( # 4892 )
+manage load stats for all cluster in xdsclient ( # 7299 )
+cancel the transport future when the call be cancel .
+update project description
+add exception handler , update d2j-dex2jar to more configurable
+add functionality and test .
+update butterknife 5.1.1 - > 7.0.1
+revert `` disable xml external entity before parse . ''
+implement xep-0280 ( message carbon ) .
+merge branch 'msoutlookaddrbook '
+use the xmlutils.newdocumentbuilderfactory ( ) method to obtain
+fix some warning , javadoc and 80 character per line .
+merge branch 'master ' of http : //github.com/jitsi/jitsi
+add additionnal conference-info attribute ( not use yet ) .
+remove depricated method in the uiservice .
+add zrtp into neomedia .
+replace joustim libs with the late svn version
+prevent removal of manifest in stripped jar
+move irc command implementation to separate plugin package : irccommands
+eliminates duplication , fixes raw-type warning .
+respect the blue theme some more .
+merge branch 'master ' of http : //github.com/lsjwzh/recyclerviewpager
+add test for habitcardlistcache ; refactor taskrunners
+add test for equal , hashcode and tostring
+fix historyeditordialog
+add more constraint on table repetition
+perform additional check to avoid negative length
+move notification and reminder to uhabits-core
+use more simple tostring style
+replace getdescription with getquestion all over the code
+miss appregistry import ( # 2308 )
+merge branch 'master ' of http : //github.com/jhy/jsoup
+merge branch 'pr/459 '
+preserve cdata section
+add hpack-test-case test module .
+teach mockwebserver to throttle the request body .
+rename rawheaders to header .
+fold mockwebserverrule into mockwebserver .
+merge pull request # 234 from square/jw/header-prefix
+merge pull request # 1578 from square/jwilson_0421_httpurl_api
+merge pull request # 3057 from square/jwilson.1223.expect_continue
+convert header to kotlin
+merge pull request # 2095 from square/jwilson_1213_fix_some_breaks
+reduce the memory requirement of a test
+merge pull request # 393 from square/jwilson_0102_delegate_everything
+merge pull request # 533 from square/jwilson_0215_rethink_recycle
+rename response.callback to callback .
+migrate type to 'internal ' package .
+add basic urlfilter for httpurlconnection
+remove some dead code point out by run coverage .
+move system-wide static to the okhttpclient class .
+follow up fix from pull request 1208
+merge pull request # 4677 from amirlivneh/leak-checks
+prefer org.junit over junit.framework for okhttp code .
+merge pull request # 4629 from square/jwilson.0217.introduce_exchange
+merge pull request # 390 from bjsousa/upgrade_to_okhttp3
+add support for dropwizard metric 4.1.x ( # 1235 )
+fix formatting ; remove mytreecache ; error listener
+merge branch 'curator-161 ' into curator-217
+merge branch 'curator-114 ' of github.com : cammckenzie/curator into curator-114
+merge branch 'curator-3.0 ' into curator-247
+merge branch 'curator-3.0 ' into curator-265
+merge branch 'curator-52 '
+add generic touch to auto focus ( not positoned )
+merge remote-tracking branch 'upstream/dev ' into dev
+add worker group config
+remove string.format for org.slf4j.logger ( # 2001 )
+combine logback config of master/worker/alert/api server to one logback.xml
+update exception
+update upgradeescheduler
+update timeout
+add hdfs.root.user
+update ut in pom.xml
+add readme.md
+merge remote-tracking branch 'remotes/upstream/dev ' into dev
+support any annotation name @ nullable .
+add @ uithread to generate class constructor .
+merge pull request # 1458 from alexkrupa/reflect-onpagechange
+include field name in duplicated view id error message
+handle max concurrent stream in client
+update jsoncodecloader to new restriction of jsoncodec
+implement automatic redeploy for verticles
+replace linkedlist with arraydeque a arraydeque be faster
+merge pull request # 1855 from eclipse/hostname-resolver-improvements
+provide implementation for issue # 2376
+remove unused local param
+revert `` httpclient queing metric ''
+merge branch 'remove-connection-lookup-in-handler '
+clarify in the doc the metric for scaled server
+rename startfuture parameter to startpromise
+add documentation for # 1793 ( json < - > pojo mapping )
+remove context/thread constraint when creating/closing metric object
+merge pull request # 2241 from sammers21/def_dns_config
+remove pool buffer option - fix # 2746
+revert `` metric thread/context test and fix ''
+merge pull request # 1444 from cescoffier/issues/ # 1438-service-classloading-issue
+merge pull request # 3581 from eclipse-vertx/issues/race-resolver-close
+add support for http compression
+add host verification to netclient
+reorganize and remove useless member variable .
+provide value type # 350
+expose asynchronous connection method on redis cluster connection # 561
+improve test performance
+add support for smismember command # 1452
+fix api generator # 1499
+add reactive wrapper converter for rxjava1 and 2 # 383
+propagate asynchronous connection to clusterconnectionprovider # 486
+publish the source code for `` replugin plugin library ''
+add sample-extra
+prepare release 2.3.0-alpha.2
+fix various compile warning ( graylog2/graylog-plugin-enterprise # 72 )
+merge pull request # 6 from graylog2/bump-version
+merge branch '020 ' of github.com : graylog2/graylog2-server into 020
+expire old output after update .
+add default value for lookup table ( # 3921 )
+collect and expose index field type information ( # 4581 )
+merge pull request # 1115 from graylog2/issue-apiclient–web-1205
+implement content pack uninstallation ( # 5058 )
+set default value for create a nativeentitydescriptor
+create migration interface and class to replace periodical ( # 3108 )
+prepare release 1.1.0-beta.4
+merge pull request # 1303 from graylog2/field-cardinality
+create ` search ` from ` view ` .
+migrate everything to new apiclient class
+check elasticsearch version when create index template ( # 3862 )
+merge remote-tracking branch 'origin/master ' into feature/permissions
+add widget config class .
+merge remote branch 'upstream/master '
+add node system stats ( infrastructure and rest api )
+assign message to the default stream ( # 3098 )
+merge remote-tracking branch 'origin/master ' into feature/permissions
+extract more dtos , put them into rest-models module .
+add test for accesstokenauthtoken # equal ( )
+fix some compiler warning and ( mongo driver ) deprecation
+merge branch ' 1.2 ' into issue-1376
+replace inputprops with inputid
+merge branch 'master ' into feature/permissions
+merge branch 'master ' into rolesupport
+prepare release 2.2.0-beta.3
+remove unused method , extract constant , start test .
+prepare release 1.1.0-beta.4
+prepare release 2.2.0-alpha.1
+merge branch 'master ' of ssh : //github.com/graylog2/graylog2-server
+implement session usage for web interface login
+write facility_num to facilitate direct translation of facility ( # 8394 )
+merge branch 'master ' into fix-index-retention-bugs
+merge branch 'master ' of github.com : graylog2/graylog2-server
+prepare release 2.4.0-alpha.1
+improve message ref expression efficiency
+add support for lookup table back parameter ( # 6897 )
+merge branch 'feature-editable-outputs ' into feature-editable-alarmcallbacks
+fix test by use jsonassert equal ( # 6908 )
+update struct type
+add new extension
+fix glsl # version issue on nv gpus
+rename contextcapabilities to glcapabilities
+merge remote-tracking branch 'origin/dev ' into dev
+refine error message
+add asdoublearray and asintarray for vector
+rename nominal2sparsebinary to sparseonehotencoder
+add test on pen digit and breast cancer
+merge pull request # 97 from devfactory/release/remove-string-literals-duplications-fix-1
+refine regression interface
+enable chain-like parameter set for classifier trainer
+1. add test/java/smile/data 2. cross validation on dataframe
+fix parsing of quote string
+added revise mdns protocol
+add title and description field to pwsresult
+make urldevice a class instead of an interface
+merge pull request # 2851 from marco-scoppetta/rc
+add storage config and manip
+fix semanticdifferenceit ( # 4841 )
+add connectedcomponentvertexprogram start from single source ( # 2490 )
+print out result in log ( # 1201 )
+implement attributetype.owners ( )
+fix bug from sonarcloud ( # 2697 )
+cleanup some stuff in the graph api module ( # 1531 )
+implement traversal ( value ) 'predicate ' logic class
+add remote concept implementation ( # 2648 )
+merge batch and normal configs ( # 773 )
+add connectedcomponentvertexprogram ( # 481 )
+merge branch 'master ' into bulk-task-endpoint
+merge remote-tracking branch 'central/stable ' into merge-stable-into-master-3
+move macro interface to grakn-core ( # 617 )
+convert attribute value to persist data type ( # 5381 )
+add support for resource index to graql ( # 1388 )
+remove engine failover , reenable failover test ( # 1443 )
+merge branch 'master ' of github.com : mindmapsdb/mindmapsdb into unifier-bug-fix
+add support for compare resource of variable ( # 660 )
+reduce indirection for symbol cast
+remove the ability to chain task
+merge remote-tracking branch 'origin/presto ' into dobe/primarykey
+remove unused sql-parser class
+make keepalive ping bidirectional and optimizable
+remove indexstore and directoryservice
+remove indexfielddatacache
+use a custom bulkshardprocessor in the indexwriterprojector
+merge httptransportplugin with netty4plugin
+add executionnodeid context layer for the jobcollectcontext
+defer reroute when node join ( # 42855 )
+replace rowreceiver with a batchconsumer
+rename userandomizedsession to userandomizedschema .
+use a class for the have clause in analysis
+make sys.cluster a regular system table
+add a separate fetchphase / fetchcontext
+avoid parallel reroutes in diskthresholdmonitor
+expose information about recovery in sys.shards table
+add pgconstraint table .
+remove expectedexception from sqltransportintegrationtest
+update copyright header
+ignore unknown type in legacy mapping
+enforce literal returntype / datatype relationship with type system
+remove dead code + duplication in o.e.c.routing
+introduce retention lease background sync
+migrate datatype to writeable
+implement the windowagg operator .
+implement fetchpushdown and use it in querythenfetchconsumer
+set clusterscope to global where possible
+merge remote-tracking branch 'origin/master ' into presto
+remove deprecate method from ` task `
+implement repeat in multishardscoredoccollector correctly
+replace asyncoperationbatchiterator with asyncflatmapbatchiterator
+move share module into a libs folder
+remove unused hasaggregates from analyzedrelation
+add support for unbound alter blob table analysis
+add and integrate a compositebatchiterator
+remove cmpquery by re-using refandliteral
+integrate batchiterator/consumer into pagedownstreamcontext
+remove unused declaration
+add support for select unassigned shard from sys.shards
+merge pull request # 2291 from crate/m/fix-dynmamic-mapping-test
+remove localnode execution optimization from transport
+merge pull request # 310 from crate/s/collect_set-aggregation
+add the discard statement
+fix numeric type streaming
+remove nest column from referenceinfo
+remove iterablecontrolledbatchiterator
+implement fetchsize functionality in fetchprojector .
+use a ratio ( 0=disabled , 1=always enable ) for @ usejdbc
+remove nomatch from whereclause
+add orderbypositions class to encapsulate index , reverseflags & nullsfirst
+add unbound analysis support for create blob table
+fix flaky threadpoolsexhaustedintegrationtest
+add mergeoperation interface
+add ` current_schemas ( bool ) ` scalar function .
+add unbound analysis support for decommission node statement .
+replace ` datatype # value ` with new datatype api in test .
+replace e brand with cratedb in some log message
+optimize distinct with limit
+create expression symbol after read index meta data
+integrate asynccompositebatchiterator into shardcollectsource
+move udf instance construction into udfservice
+bump gradle plugin for android to v2.1.0
+introduce draggableitemstate
+fix misusage of getscalex ( )
+add perf test @ category to several superclass
+tweak titanindexrepair
+merge branch 'titan09 ' of github.com : thinkaurelius/titan into titan09
+merge branch 'titan05 ' into olap
+merge branch 'titan05 ' of http : //github.com/thinkaurelius/titan into titan05
+merge branch 'bigbang ' into titan05
+update tp version to 3.0.0.m8-incubating
+merge branch 'master ' of github.com : thinkaurelius/titan
+merge branch 'titan09 ' of github.com : thinkaurelius/titan into titan09
+use only titan-core datatypes in configoption
+merge branch 'titan09 ' of http : //github.com/thinkaurelius/titan into titan09
+rename faunus 's titan ioformats
+merge branch 'master ' into titan05
+merge branch 'titan03 ' of github.com : thinkaurelius/titan into titan03
+merge branch 'master ' of github.com : thinkaurelius/titan
+merge remote-tracking branch 'origin/master '
+update readme
+delete dark splash screen track .
+merge remote-tracking branch 'refs/remotes/k0shk0sh/master '
+merge remote-tracking branch 'refs/remotes/k0shk0sh/master '
+release 4.5.5
+merge pull request # 924 from astro36/master
+move new engine to nextgen package
+add apollo trace support into graphql-java ( # 577 )
+improve query traversal :
+added our own publisher implementation
+add jacoco plugin . it generate test coverage .
+fix spell mistake
+rename ` valuesresolver # coercevalueforinputobjectfield ( ) `
+merge pull request # 1878 from benmccann/convenience-constructor
+merge remote-tracking branch 'upstream/master ' into kaqqao-122typeresolver
+add bit question
+replace tab with space
+merge branch 'master ' of http : //github.com/kickstarter/android
+rename project notification file
+rename view_groups for consistency
+add time to go on mini project card
+make a currentusertype to put in front of currentuser .
+merge branch 'master ' of http : //github.com/kickstarter/android into i18n-login
+add reward view holder to ag
+merge branch 'master ' of http : //github.com/kickstarter/android into project_detail_ui
+set up custom login menu a listpopupwindow
+merge remote-tracking branch 'origin/master ' into config-updates
+delete filter activity
+merge branch 'master ' into checkstyle
+bump library to 23.0.1
+update exist string
+merge branch 'master ' into pull-to-refresh
+add starfab style to correct < v21 fab margin
+reload checkout webviews when destroyed
+move koala endpoint to strings.xml
+add default case
+merge branch 'master ' of http : //github.com/kickstarter/android into facebook
+fix timber installation
+merge branch 'master ' of http : //github.com/kickstarter/android into sidemenu
+improve webviews for update ( # 61 )
+merge branch 'master ' of http : //github.com/kickstarter/android into activity-clicks
+merge branch 'master ' of http : //github.com/kickstarter/android into comment-dialog
+merge branch 'master ' into activity-sampler
+add facebook share from thanks page
+add icon for debug build .
+migrate buckstylepackagevisibletuple to buckstylevalue
+set folder file type for directory in resource .
+add support for plugin-based command
+merge unconfiguredbuildtarget subclasses ; do weak intern
+remove testevents from rule package
+generate non-amalgamated xcode project file .
+move forkjoinpool for actiongraph parallelization out into main
+revert defaultjavalibrary change .
+add warning when import module if sandboxing be enable
+add profile option to test
+add immutablesortedmap support
+add a ` mappedsymlinktree ` specialization
+revert `` haskell : include library in generated package ''
+move python rule into their own package
+replace unconfiguredbuildtargetview with unconfiguredbuildtarget from artifactcache
+add testparserfactory
+merge branch 'master ' of http : //github.com/opengrok/opengrok
+fix handling of symlinked project
+propagate error code from opengrok script
+validate method for validate the specific message type ( # 1416 )
+add possibility to increment search count map
+merge pull request # 977 from vladak/tablesort
+add issue number
+improve the validate-xref script .
+merge pull request # 1311 from vladak/javacheck
+merge branch 'master ' of http : //github.com/opengrok/opengrok
+remove high pri pmd warning
+fix # 2604 , add tandemfilename and tandempath
+merge pull request # 1092 from mrate/scopes
+implement annotation api endpoint
+revert `` working account-aware requesting . `` ; ui and data should be
+add barrieradapter .
+add item forum topic list ui .
+add compilable musicfragment .
+implement fragmentlistactivity ; close # 43 .
+merge pull request # 1395 from ibotpeaches/issue/1394
+update internal framework to api 18
+merge pull request # 699 from secupwn/proguard-dontobfuscate
+create sub-package
+merge remote-tracking branch 'origin/development ' into development
+add whitespaceafter checkstyle rule
+add mapping generation
+merge branch 'master ' of http : //github.com/pushtorefresh/bamboo-storage into issue-182
+merge pull request # 374 from pushtorefresh/auto-value-auto-parcel-mapping
+part2 . implement optional for sqlite ( # 848 )
+merge pull request # 302 from pushtorefresh/builders
+merge master into hide-rx-java
+reformat code style
+merge pull request # 7138 from amit2103/bael-15412
+merge http : //github.com/eugenp/tutorials
+rename package , fix file upload test
+merge branch 'master ' of http : //github.com/eugenp/tutorials into bael-1525-check-if-a-string-is-a-palindrome
+merge pull request # 5099 from dkapil/task/bael-8504
+add autovalue module
+merge branch 'master ' into bael-3760_introduction_to_takes
+update jpa share key
+merge pull request # 2251 from eugenp/bael-964-map-util
+merge pull request # 7560 from majewskikrzysztof/bael-3125
+eclipse cleanup , remove unnecessary nature , namging cleanup as well
+merge remote-tracking branch 'upstream/master '
+merge pull request # 854 from dkornishev/master
+merge pull request # 8597 from psevestre/master
+add integration test profile
+add testcase for webutils and servletrequestutils ( # 1193 )
+merge branch 'master ' of http : //github.com/alexflorinhriscu/tutorials
+add schedule post to reddit
+merge remote-tracking branch 'origin/master '
+added java base configuration . download formatter.xml and reformatted
+merge pull request # 8672 from sampada07/bael-3394
+merge pull request # 7365 from amit2103/bael-15974
+migrate spring-data-dynamodb to parent-boot-2
+merge pull request # 5672 from asturcon/string-cast-jpa
+merge branch 'master ' of http : //github.com/eugenp/tutorials into task/bael-8873
+implement hexagonal architecture pattern
+merge pull request # 4499 from eugenp/update-all
+fix typo
+merge branch 'master ' into bael-20888-move-spring-boot-testing
+merge pull request # 9780 from majajoksovic/master
+remove sandbox , maven upgrade , eclipse cleanup
+merge pull request # 7717 from sjmillington/core-java-reflection
+merge pull request # 573 from egimaben/master
+merge remote-tracking branch 'upstream/master '
+reload property file in spring ( # 7427 )
+merge pull request # 21 from eugenp/master
+update datasource.properties
+update the tutorial example : remove change name example , and
+merge pull request # 8328 from sjmillington/rest-move-pt-4
+merge branch 'master ' into bael-1344
+merge pull request # 89 from egmp777/master
+commit source code for bael-698 ( # 2429 )
+rename module to couchbase
+merge pull request # 361 from giuseppebueti/master
+merge branch 'master ' into bael-2527
+create license ( # 3159 )
+merge pull request # 9655 from maiklins/java-71-spring-security-config-move
+change test method name to conform to standard
+merge pull request # 3912 from theawesomenayak/bael-1676
+merge branch 'master ' into bael-20863-move-spring-boot-ctx-fluent
+update test
+merge pull request # 662 from egimaben/master
+call a soap web service in java ( # 9166 )
+merge branch 'master ' of http : //github.com/eugenp/tutorials into bael-15959
+rename the test in boot-autoconfiguration
+delete readme.md
+include the following change :
+bael-602 more example of jool
+merge branch 'master ' of http : //github.com/maiklins/tutorials into bael-20858-move-spring-boot-camel
+merge pull request # 443 from ccristian/master
+merge pull request # 81 from egmp777/master
+remove stop word from string
+implement various filter example .
+fixed one other scenario not work properly
+merge branch 'master ' into bael-11403
+simplify the test method name .
+disable undertow temporarily
+enhance nest class
+update the cache behavior code :
+optimize regex expression ( # 4961 )
+merge pull request # 98 from doha2012/master
+add java configuration
+merge branch 'master ' of http : //github.com/eugenp/tutorials into bael-16045-9
+merge branch 'master ' of github.com : eugenp/tutorials into master
+fix cdi package name ( # 7715 )
+merge pull request # 8153 from vatsalgosar/bael-3401
+merge pull request # 386 from kevingilmore/master
+merge pull request # 8436 from amit2103/bael-17317-31
+merge remote-tracking branch 'origin/master '
+merge pull request # 8254 from sjmillington/rest-move-3
+update project name
+upgrade class httpsclientssllivetest
+add the sample code
+merge pull request # 5677 from dkapil/task/bael-8874
+add the live test to spring-exceptions module
+merge branch 'master ' of http : //github.com/ivanp81/tutorials into ivanp81-master
+adjust ui and unit test
+add activity option animation
+get test work on junit4
+merge branch 'master ' of http : //stratosphere.eu/arvid
+remove unused metricregistry from resourcemanager
+fix bug with user-code wrapper
+add object-reuse switch for stream
+add evenlyspreadoutlocationpreferenceslotselectionstrategy
+keep only archive version of previous execution
+introduce checkpointmetadata
+make the clusterclient autocloseable
+remove generic from dispatcher factory
+execute nephele in cluster-mode mode , with multiple
+activate strict checkstyle for flink-hadoop-compatibility
+add support for kafka 0.10.x .
+merge branch 'stratosphere '
+merge branch 'version02 ' of http : //dev.stratosphere.eu/git/stage1 into version02
+remove unused recordmodelpostpass and replace javaplan by plan .
+add new kafka connector module
+fixed abstractobjectnode 's # copyvaluefrom ( ... ) .
+log intermediate stage
+avoid concurrent usage of statesnapshottransformer
+merge branch 'stratosphere '
+merge branch 'streaming_test ' into stream
+add distribute cache to stratosphere
+add branch logic for broadcast variable .
+fix combiningunilateralsortmerger ( for reduceexternalitcase )
+rename part 1 ( scala source only )
+add new java api base delta iteration example .
+add javadocs for new windowing semantics/internals
+ensure flink kafka 0.8 be correctly use 'auto.offset.reset '
+return a clusterclientprovider from clusterdescriptor method
+distinguish unknown catalogcolumnstats and other value
+remove hashmapserializer and use mapserializer instead .
+add flinkrelnode interface .
+migrate subtaskexecutionattemptaccumulatorshandler to flip-6 rest endpoint
+merge remote-tracking branch 'warneke/checkpointing ' into checkpointing
+merge branch 'integration ' of http : //github.com/rwaury/stratosphere into hash_merge
+rename executor to pipelineexecutor
+merge branch 'staging_datamodel ' of http : //stratosphere.eu/stage1 into new_datamodel
+merge branch 'master ' into hpi
+merge branch 'fhueske '
+add support for side output
+perform typeextraction outside of java operator
+fixed # 247
+fix instantiation of remote executor .
+activate strict checkstyle for flink-connector-filesystem
+calculate taskexecutorutilization when list available slot
+activate strict checkstyle for flink-test-utils
+rename examplejavaprograms package
+activate checkstyle flink-java/io
+extend internalappendingstate with internal stored state access
+add broadcast state to the operatorstatebackend .
+activate checkstyle flink-java/functions
+added vertexassignmentevent and correspond unit test
+migrate android support to androidx .
+fix some bug
+update slovak language
+merge pull request # 4223 from ievgeny/geofences-order
+integrate c3p0 database library
+fix endianness for at2000 ( fix # 2662 )
+merge pull request # 3950 from abyss777/notification_refactor
+merge pull request # 4206 from flocsy/message-encoding
+merge pull request # 2188 from ninioe/master
+merge pull request # 3540 from abyss777/check_valid_optional
+rename cell attribute to cid
+add gator heartbeat response
+merge pull request # 3920 from traccar/remove-http-client
+add owntracks topic
+support more speed unit for tk103
+optimize a few ifs
+merge pull request # 3667 from nadezhdamosunova/master
+fix some pmd report bug
+fix url problem in geocoders
+merge pull request # 4494 from floetenbaer/pushover
+added other miss import
+merge pull request # 1794 from hanselsen/master
+update package structure
+throw more specific exception than runtimeexception
+extend plot type for canned plot , plus doc
+fix deprecation warning
+merge recent change from master
+extend column functionality
+rebuild grouping and aggregation functionality
+allow customization of handling of transient failure
+merge pull request # 1326 from manan164/es6-batch-indexing
+merge pull request # 1630 from s50600822/feature/tasklogs-limits
+merge branch 'dev ' into dev_script_task
+merge branch ' 2.0 ' of github.com : netflix/conductor into gorzell/guiceproviders
+merge branch 'dev ' of http : //github.com/netflix/conductor into do-while-conductor
+merge pull request # 426 from mashurex/mysql_jdbc_424
+merge branch 'master ' into wf-listener-publish-implementation
+add metadata client , miss apis , retry update fix
+merge branch 'dev ' of http : //github.com/netflix/conductor into feature/validation
+merge pull request # 374 from grfeng/dev_optimize_upstream
+merge pull request # 11 from netflix/master
+merge pull request # 1377 from netflix/remove_queue_dao_exists
+add configuration to enable external index management in es6
+add jpa sample app
+tidy up a few thing relate to * request
+provide support for jackson 2
+add @ enableauthorizationserver
+move client credential check to a filter
+add static parse method to date-time class
+merge commit '6b1b998c82879495a0587fc0559314e9605061bc '
+ensure isleap ( ) return correct result for day field
+add a seperate description for fraction of second presentation
+add jacoco for code coverage report
+merge branch 'biz ' of http : //github.com/dianping/cat into biz
+modify the cat history report
+modify the config
+merge pull request # 526 from jialinsun/master
+enable local-mode
+merge branch 'master ' of github.com : dianping/cat
+merge pull request # 193 from ainilife/biz
+merge branch 'master ' of github.com : dianping/cat
+review the code
+merge branch 'master ' of ssh : //192.168.8.22:58422/cat
+merge branch 'master ' of ssh : //192.168.8.22:58422/cat
+add summary page , need to fix bug
+get domain from model , then from payload
+modify scheduledmanager
+add table , columns support in information schema
+pull request test
+merge branch 'master ' of github.com : dianping/cat
+merge pull request # 655 from leonindy/master
+modify the cat test
+merge branch 'master ' of ssh : //192.168.8.22:58422/cat
+modify chart class path
+modify the e.printstatck
+merge branch 'master ' of http : //github.com/dianping/cat
+add metrictype for rule
+add event report
+modify the code
+modify the cat problem
+modify the baseline
+add cat-job project
+merge branch 'biz ' of code.dianpingoa.com : arch/cat into biz
+modify the metric jsp
+add total exception alert number
+merge branch 'biz ' of http : //github.com/dianping/cat into biz
+merge pull request # 483 from jialinsun/master
+modify the warning
+modify the cat home
+fix the xml
+add interface after group discussion/brainstorm
+modify the cat job
+revert state hide nav
+modify the testcase
+merge branch 'master ' of ssh : //192.168.8.22:58422/cat
+add excetpion threshold alert
+refine code
+merge whale
+merge branch 'master ' of ssh : //192.168.8.22:58422/cat
+merge pull request # 380 from jialinsun/master
+improve alert monitor page
+merge pull request # 455 from jialinsun/master
+add desc info of rule in alert message
+add new column cmdb_domain for project
+merge pull request # 536 from leonindy/master
+modify the sql
+implement some feature and fix bug
+merge branch 'biz ' of ssh : //code.dianpingoa.com/arch/cat into biz
+modify table style
+refactor the cat month report
+merge branch 'master ' of http : //github.com/dianping/cat
+add the activity config page
+modify the handler
+merge pull request # 701 from jialinsun/master
+add code for user define rule
+modify success ratio unit
+merge branch 'master ' of code.dianpingoa.com : arch/cat
+resolve conflict
+merge branch 'master ' of ssh : //192.168.8.22:58422/cat
+add heartbeatalert module
+merge branch 'master ' of ssh : //192.168.8.22:58422/cat
+merge branch 'master ' of ssh : //192.168.8.22:58422/cat
+modify the cdnfilter
+modify the router page and fix j error
+modify the failure report analyzer
+tighten up some non-private field in dm encoder
+fix whitespace for querydsl-sql-spatial
+fix primitive handling in code generation # 472
+merge pull request # 1739 from querydsl/i1736
+unify jpamapaccessvisitor and jpalistaccessvisitor
+add compilation to test
+rename fieldtype to typecategory
+add contract for sqlexception translation # 617
+remove some empty constructor of query implementation
+add qhierarchytest_a2 to the expect 'failures '
+add stub for spatial type # 631
+add support for comment in keyword file
+merge pull request # 1147 from querydsl/deprecations
+merge pull request # 882 from querydsl/i879
+add javadocs # 631
+fix whitespace for querydsl-mongodb
+merge pull request # 804 from querydsl/i803
+merge pull request # 270 from anthony-o/master
+refactoring querydsl to new type model
+move assert to com.mysema.util
+merge branch 'i954 ' into i945
+merge pull request # 1327 from querydsl/mavenplugin-javadocs
+remove compiler warning from raw querymixin usage
+add more static variable
+merge pull request # 1698 from querydsl/i1676
+remove genericexportertest from jpa-codegen
+add more documentation
+add numeric mapping range
+move cascadedboolean to com.mysema.query
+introduce literalexpression
+fix date trunc mapping
+fix case operation precedence
+fix custom type serialization
+merge pull request # 809 from querydsl/i806
+hibernate 5 3 fix proper solution ( # 2354 )
+add test
+merge pull request # 277 from hceylan/master
+merge pull request # 161 from sonic-ios-dev/dev
+fix sonicurlprotocol error block request
+remove cache while response etag header be not exist
+merge pull request # 142 from sonic-ios-dev/dev
+add annotation cdi demo and quarkus adapter demo ( # 1543 )
+add adapter module for apache dubbo 2.7.x and above
+migrate static import of org.mockito.matchers to org.mockito.argumentmatchers
+remove request # recycle ( )
+avoid a bunch of unnecessary url parsing
+migrate static import of org.mockito.matchers to org.mockito.argumentmatchers
+remove all `` manifest = ... '' entry from @ config annotation .
+refactored the whitespace check
+refactored the coding check
+fix up test that be break under maven .
+fix typo in utlis package . # 1555
+update javadoc link to https from http ( linkcheckplugin )
+remove unused assignment . # 1555
+merge remote-tracking branch 'upstream/master ' into storm-1211
+merge branch 'storm-1484 ' of http : //github.com/vesense/storm into storm-1484
+merge branch 'storm-1772 ' of http : //github.com/roshannaik/storm into storm-1772
+merge branch 'storm-415 ' of http : //github.com/iwasakims/incubator-storm into storm-415
+merge branch 'update-curator ' of http : //github.com/schonfeld/storm into storm-1115
+extend metric on nimbus and logviewer
+add macro while-timout to avoid test hang
+merge branch 'patch-1 ' of http : //github.com/ethanlm/storm into asfgit-master
+fix command to run rollingtopwords example
+merge branch 'eventhub3 ' of http : //github.com/rban1/storm
+update carbonite , tools.cli , and jgrapht dependency to release version
+merge branch 'storm-1481 ' of http : //github.com/vesense/storm into storm-1481
+set storm.home for clojure test and during localcluster run
+merge branch 'kerberos-solr-bolt-master1 ' of http : //github.com/omkreddy/storm into storm-2860-merge
+upgrade mockito and hamcrest to late version
+remove deprecate field and method from thrift
+merge remote-tracking branch 'jason/metrics ' into 0.9.0
+merge branch 'storm-1436 ' of http : //github.com/revans2/incubator-storm
+merge remote-tracking branch 'upstream/master ' into windowing-eventts
+merge branch 'storm-2482-master ' of http : //github.com/arunmahadevan/storm into storm-2482-merge
+merge branch 'patch-1 ' of http : //github.com/nothinking/storm into cluster-xml-patch
+merge branch 'storm-811 ' of http : //github.com/revans2/incubator-storm into storm-811
+expose a metric for call to reporterror ( )
+add thread name for flush checker
+fix checkstyle violation in sql-core
+integrate partialkeygrouping into storm api
+merge branch 'storm-2217 ' of http : //github.com/revans2/incubator-storm into storm-2217-merge
+merge branch 'storm-670 ' of http : //github.com/ptgoetz/storm into storm-670
+merge branch 'storm-2215 ' of http : //github.com/revans2/incubator-storm into storm-2215-merge
+use consistent formatting
+merge branch 'storm-1920 '
+merge branch 'update_multilang_modules ' of http : //github.com/bitcloud/storm into storm-2868-merge
+merge branch 'storm2578 ' of http : //github.com/milantracy/storm into storm-2578-merge
+merge branch 'storm-2607-fixup ' of http : //github.com/srdo/storm into asfgit-master
+merge branch 'storm-3142 ' of http : //github.com/srdo/storm into asfgit-master
+merge branch 'storm2832 ' of http : //github.com/milantracy/storm into storm-2832
+merge remote-tracking branch 'upstream/master '
+merge remote-tracking branch 'd2r/derekd-ui-escape-chars '
+merge branch 'master ' of http : //github.com/apache/storm into storm-1837-2
+merge branch 'storm-634 ' of http : //github.com/parth-brahmbhatt/incubator-storm into storm-634
+merge branch 'storm-1837-2 ' of http : //github.com/srdo/storm into storm-1837
+remove pom
+merge branch 'branch_storm_redis ' of http : //github.com/dashengju/storm into storm-609
+merge branch 'pacemaker-ha '
+delete accidently check in file . rename zkworkerheartbeat to clusterworkerheartbeat .
+merge pull request # 3036 from krichter722/checkstyle-kinesis
+merge branch 'master ' of http : //github.com/jsgilmore/incubator-storm into storm-138
+merge branch '1227 ' of http : //github.com/zhuoliu/storm into storm-1227
+delete unuse re
+update the banner live video interface detail
+add support for type parameter to @ autofactory .
+add hasmodifiers to moreelements .
+release the serializableautovalue extension .
+merge pull request # 4958 from dfieldfl/backlog-21239
+merge pull request # 4254 from tmcsantos/backlog-17633
+add option to jms producer ( # 5221 )
+merge pull request # 1123 from apratkin/backlog-2437
+merge pull request # 1874 from alexanderbuloichik/backlog-5396a
+merge pull request # 6466 from bmorrise/backlog-27694
+merge pull request # 4577 from rmansoor/pdi-15577
+merge pull request # 1106 from matthewtckr/pdi-13592
+merge pull request # 6347 from ricksjames/backlog-27902-2
+refactor the repository manager
+handle false positive sonar issue and improve comment
+merge pull request # 4615 from advent51/pdi-14296
+merge pull request # 1969 from ivannikolaychuk/pdi-14632
+merge pull request # 2094 from sergeytravin/pdi-14132
+merge pull request # 2154 from akhayrutdinov/pdi-14239
+merge pull request # 1861 from mattyb149/backlog-5396
+merge pull request # 4911 from stepanovdg/pdi-16527
+pluginize all of the json step from kettle-engine
+merge pull request # 7230 from tkafalas/feature
+merge pull request # 6978 from e-cuellar/backlog-31544
+fix minor error
+merge pull request # 2019 from alexanderbuloichik/mdi
+merge pull request # 4709 from vasilii-komarov/pdi-16786
+merge pull request # 3639 from bmorrise/backlog-12444
+remove the rsa daemon from the assembly .
+merge pull request # 5812 from bmorrise/backlog-24628
+merge pull request # 2695 from matthewtckr/pr2054
+merge pull request # 5514 from ppatricio/pdi-17303
+merge pull request # 4973 from wseyler/backlog-18197
+merge pull request # 1686 from dkincade/master
+fix fail test for pdi-11943
+merge pull request # 7227 from ddiroma/33181
+add namedcluster support to pdi
+merge pull request # 2403 from pedrofvteixeira/backlog-7407
+merge pull request # 4308 from bmorrise/backlog-18075
+powermock-31 only mock specific call to new
+extend fix on static method on interface case .
+fix codebeforesetter , add codebeforegetterandsetter
+merge pull request # 928 from hashzhang/1.6
+merge pull request # 1496 from yanjunli/1.6
+merge branch 'https/github.com/mycatapache/mycat-server/tree/mycat-server-1.6.76-test ' into issue # 2528
+merge remote-tracking branch 'origin/1.6 ' into 1.6
+merge pull request # 1183 from magicdoom/1.6
+merge pull request # 1124 from zagnix/1.6
+merge pull request # 350 from zhouwenbin2000/master
+merge pull request # 1479 from yanjunli/1.6
+merge pull request # 880 from songgw/1.6
+merge pull request # 599 from zhuam/1.4
+merge pull request # 1109 from magicdoom/1.6
+merge pull request # 1603 from yanjunli/1.6
+see 11/18 log
+see 05/29 log
+see 04/21 log
+see 02/27 log
+see 03/08 log
+see 08/20 log
+merge branch 'master ' into 1.24.0
+see 06/29 log
+see 08/04 log
+see 11/17 log
+merge pull request # 26 from trendingbig/develop
+implement service bound environment .
+remove sofa-rpc-transmit-ip module . ( # 7 )
+add test case ( # 409 )
+improve messaging and ux around safety number change .
+populate incoming attachment with width and height from message
+improve support for `` me '' contact .
+add support for create megaphone . includes reaction megaphone .
+refresh message detail screen .
+add new string viewidentityactivity_my_identity_fingerprint
+fix view-once sync and quote description .
+add support for pass data between job .
+add dns fallback system .
+add support for animated sticker .
+create a new system for application-level migration .
+require cdn number match rather than use default cdn
+add support for sync force unread status .
+remove verification tag .
+add per-contact notification channel .
+add support for handle unknown protobuf field .
+remove textsecurepreferences.getprofilename ( )
+display group action and correctly handle group delivery .
+merge branch ' 3.2.x '
+add more mono coverage
+merge failurable and introspectable
+rename processorgroup to schedulergroup ,
+add a post-test listener that reset hook consistently ( # 2082 )
+hide insufficientcapacityexception
+fix # 444 rename fluxsink/monosink onterminate to ondispose ( # 457 )
+merge branch 'master ' into 2.1.0-beta1
+merge pull request # 1151 from rewerma/master
+remove compiler warning
+merge branch 'master ' into pyf2
+retry timeout batchsize
+merge pull request # 173 from lulu2panpan/master
+merge pull request # 1173 from rickjou/master
+rename motion package to animation , add new util class .
+merge \ '' move floatingactionbutton shadow to use valueanimatorcompat\ '' into nyc-support-24.1-dev
+add shape and bottomappbar to build .
+add custom setting of alert filter for metric ( # 818 )
+set alias name in resulttable schema name ( # 5033 )
+add skiplist base storage for multi valued column
+add azure support for segmentfetcher ( # 2995 )
+improve realtime segment creation/commit log and metric
+add onheapguavabloomfilterreader ( # 6147 )
+fix querycomparison failure
+implement off-heap bloom filter reader ( # 6118 )
+create detection onboarding execution pipeline ( # 2230 )
+create stream and partition level consumer ( # 3245 )
+implement anomaly impacttototalmetric ( # 1404 )
+re-design the broker routing ( # 5046 )
+enhance instance class to include the pool config ( # 4522 )
+remove excessive schemabuilder # addtime method ( # 5349 )
+add unit test for stl java code
+create multi-dimensional summary for week-over-week change of metric ( # 317 )
+replace lbufferapi in star-tree with pinotdatabuffer ( # 2983 )
+add perfbenchmarkrunner a a tool inside pinottoollauncher ( # 817 )
+upgrade pinot version to 0.4.0 ( # 5618 )
+add resourcetype offline/realtime suffix
+add the support for dynamic routing table ( # 3434 )
+fix default value of tenant isolation
+add stream query handler ( # 5717 )
+simplify the logic for scattergather ( # 1947 )
+add config support
+add segment pre-processing hadoop job ( # 4253 )
+alert search and pagination endpoint ( # 5413 )
+add holiday event api ( # 1060 )
+add support of logical function and and or ( # 6249 )
+enhance forward index reader for good performance ( # 6262 )
+fix package prefix ( # 440 )
+introduce apollo store operation ( # 573 )
+read operation/fragment from store ( # 480 )
+add support of field condition ( # 631 )
+add test to verify proper compiler output with userawtypeswarningsuppression
+bring android mode up to date , tweak java mode
+merge branch 'master ' of http : //github.com/processing/processing.git into zh-languge
+add the remove filter feature
+move android fully to it own subdirectory
+merge remote-tracking branch 'remotes/upstream/master '
+merge branch 'master ' of github.com : processing/processing
+merge branch 'master ' of github.com : processing/processing
+merge pull request # 3670 from jakubvaltar/fx-framerate
+rename package
+constrain lerpcolor ( ) between 0 and 1
+merge pull request # 3875 from jakubvaltar/opengl-references
+move the xml library into core
+merge pull request # 4462 from gkfx/no-block-select
+incorporate update for experimental mode
+merge pull request # 3537 from jakubvaltar/bugfix-mnemonics
+add parsejsonarray ( ) and parsejsonobject ( ) to reference
+add dashboard
+topic rename . resolve # 399
+make shell more robustness
+add pinyinutil
+add crc16
+merge pull request # 1060 from wwjay9/v5-dev
+modify arrays.aslist
+merge remote-tracking branch 'upstream/master '
+set theme jekyll-theme-leap-day
+create readme.md
+add lombok
+rename tojsonobject ( ) to tojsonvalue ( ) , fromjsonobject ( ) to fromjsonvalue ( ) .
+merge pull request # 764 from square/jwilson.1128.kp10rc3
+merge remote-tracking branch 'origin/master '
+merge branch 'master ' of http : //github.com/metersphere/metersphere
+merge branch 'master ' of http : //github.com/metersphere/metersphere
+merge remote-tracking branch 'origin/dev ' into dev
+merge branch 'dev ' of http : //github.com/fit2cloudrd/metersphere-server into dev
+merge remote-tracking branch 'origin/dev ' into dev
+merge branch 'dev ' of http : //github.com/fit2cloudrd/metersphere-server into dev
+merge branch 'v1.4 '
+merge remote-tracking branch 'origin/dev ' into dev
+merge remote-tracking branch 'origin/master '
+merge remote-tracking branch 'origin/master '
+merge remote-tracking branch 'origin/v1.4 ' into v1.4
+merge branch 'master ' into develop
+merge branch 'master ' into develop
+remove long constant name ref
+prepare release 0.4.8
+fix bug
+preload property jdk.serialfilter to prevent later modification
+merge pr4032 from jitserver to master
+add assert on cp patch type check
+create two module hashtables with module name/pointer a key
+merge pull request # 4868 from pdbain-ibm/mxbean
+merge pull request # 102 from ktbriggs/concurrent-marking-delegate
+add dupclassnametest
+fix know object table update at the server
+merge pull request # 3383 from keithc-ca/traceformat
+handle null varhandle.handletable entry in ( bytecode|mh ) interpreter
+optimize jvmti field watch
+remove unused vt resolve flag
+merge pull request # 8443 from vsebe/jenkins.gcc75
+exclude nocompressref check test for openj9
+add test for jar with prepended shell script
+merge pull request # 6635 from a7ehuo/mergejitservrj9options
+define new pre- and postescapeanalysis pass
+reduce initialization cost of management bean
+fix getpid failure in window
+add new ddr command for modularity
+make this portable to system without /bin/bash
+create an openj9 jcl preprocessor configuration for java 8
+merge pull request # 7311 from jasonfengj9/unsafectr
+adopt omr 's new read/write barrier kind
+fix signal issue when java main thread terminates
+add a set of release note for ms1
+add `` queue '' stage to pipelines
+implement generatemethoddispatch in jnilinkage
+merge pull request # 7313 from jasonfengj9/mvutils
+merge pull request # 3512 from gacholio/mon
+implement jmap and openj9virtualmachine.heaphisto
+merge branch 'master ' into dev_reduce_num_of_vm_stackwalkermayskipframes_msg
+pas reference repo to get_source.sh
+merge pull request # 7762 from danheidinga/djh/clconstrainthash
+remove cleanbeforecheckout ( ) from pipeline clone
+fix classfile version error message
+merge pull request # 2423 from amicic/master
+add cmake to arm dockerfile
+move copyforwardschemetask to it own header file
+merge pull request # 4350 from knn-k/aarch64build1
+fix a comment typo , change j9j9portcontrol.c to j9portcontrol.c
+fix typo in function name containeszerooroneconcreteclass
+fix allowance for pad after lookupswitch bytecode
+modify metronome scheduler for move into omr
+merge pull request # 9977 from dsouzai/aotdoc
+merge pull request # 7431 from pshipton/msotest
+merge pull request # 5256 from renfeiw/tkg10
+merge pull request # 6195 from pdbain-ibm/attach_jstack
+merge pull request # 6262 from theresa-m/fix_5822
+merge pull request # 7925 from sophia-guo/updates
+remove unused vmifarraycmpevaluator on x86
+merge pull request # 7433 from knn-k/codegen_setsupports
+merge pull request # 1922 from youngar/master
+delete the ! j9reg ddr extension
+rename preview package to extractor
+merge pull request # 4467 from k9mail/messaginglistener_cleanup
+rename notificationsholder to notificationdata
+add icon to account setting screen ( # 3792 )
+merge branch 'master ' into pgp_mime_preparations
+make notificationactioncreator the only class referencing activity
+provide progress indicator for search .
+merge pull request # 2203 from philipwhiuk/clearfoldernotonuithread
+rename firstclassattachment to inlineattachment ( with reverse logic )
+merge pull request # 2663 from philipwhiuk/bccview
+fix issue 4543 : msg unread after `` download complete '' press
+merge remote-tracking branch 'upstream/master '
+merge pull request # 52 from andrewgaul/peekable-bad-offset
+merge branch 'upstream-master ' into json-pending-command-rebase
+fix a number of build warning .
+move library test to k9mail-library module
+merge pull request # 4431 from k9mail/standalone_localfolder
+move common code from notificationcontroller to notificationhelper
+merge branch 'split_view '
+remove compatibility code for pre-api 19 version
+remove unused method from remotestore
+move html-related class to 'html ' package
+remove storeconfig.getmaximumautodownloadmessagesize ( )
+fix unresolved reference in javadoc comment
+merge pull request # 2449 from k9mail/root-classes-cleanup
+find src/com/fsck/ -name \ * .java|xargs astyle -- style=ansi
+move jvm test into main k9mail module
+merge pull request # 4638 from k9mail/message_compose_attachment_boxes
+remove support for clearsigned message in pgpmessagebuilder
+remove trail space from imap command
+merge remote-tracking branch 'origin/master '
+merge branch ' # 59_dev ' into # 55
+merge branch ' # 59_dev ' into 'manager_db_upgrade_dev '
+expose all endpoint and support mime type in docservice
+merge pull request # 33 from anuraaga/ttext
+add uuid from requestcontext ( # 2203 )
+add mediatypenames ( # 2438 )
+move the jvm system property flag to flag ( # 611 )
+add human-readable route string for route ( # 2933 )
+merge pull request # 218 from anuraaga/work
+migrate remain usage of hamcrest to assertj ( # 1032 )
+provide a way to set the customized eventloopscheduler ( # 1886 )
+add a new flag : 'com.linecorp.armeria.verboseresponses ' ( # 1327 )
+merge pull request # 233 from trustin/max_concurrency
+add prometheus request metric to armeria-core ( # 525 )
+add a response converter for stream server-sent event ( # 1551 )
+provide ` requestcontext ` to ` requestlog ` sanitizers ( # 2803 )
+implement http authorization decorator service ( # 259 ) ( # 328 )
+upgrade maven-bundle-plugin to 3.3.0
+optimize import
+finish liquibase release automation
+avoid case sensitive command check
+merge branch 'master ' of http : //github.com/ms-novatti/liquibase into ms-novatti-master
+fix test , fix java 7 support
+revert change that cause duplication in getcolumns method
+fix test that be fail in intellij
+merge branch 'dat-5252 ' into dat-5371
+miss overwritten method
+merge branch '2_0_x ' of github.com : liquibase/liquibase into 2_0_x
+merge branch 'ddb '
+begin changelog property refactoring
+merge branch 'master ' into vagrant-improvements
+fix test
+merge branch 'core-3063 ' of http : //github.com/richardbradley/liquibase into richardbradley-core-3063
+fix dbms field serialization issue # 1438
+improve and unit testing lockservice
+merge remote-tracking branch 'origin/3.10.x ' into dat-4254
+merge pull request # 1524 from liquibase/lb-890
+refactoring code base to access lockserviceimpl through interface
+add reverse engineering support for db2 z/os
+merge remote-tracking branch 'upstream/master '
+improve allocation in log agent test and some formatting .
+fix findnextpoweroftwo give incorrect value on some machine
+merge remote-tracking branch 'origin/real-logic-pull-request ' into real-logic-pull-request
+move systemcounters to stats package .
+name clarification .
+add client timeout event from driver .
+add idlestrategy config , prep for session close on conductor
+add initial take on bound replay .
+merge remote-tracking branch 'origin/master '
+merge branch 'master ' of http : //github.com/real-logic/aeron
+merge branch 'master ' of http : //github.com/real-logic/aeron
+undo some accidental commits .
+merge pull request # 766 from dunkymole/consensusmoduleclusterexceptions
+factor out agentrunner strategy from the agent interface .
+merge remote-tracking branch 'real-logic/master '
+merge branch 'master ' of http : //github.com/strangelydim/aeron
+rename and warning cleanup .
+merge remote-tracking branch 'origin/dev ' into dev
+merge pull request # 990 from yakolee/master
+add testcase
+improve sql parser
+improve ddl parser
+merge pull request # 862 from wenshao/master
+merge pull request # 228 from wenshao/master
+update doc dependency version
+improve wall filter
+merge branch 'master ' of http : //github.com/alibabatech/druid
+merge pull request # 3 from alibaba/master
+add lexer and token for teradata
+merge pull request # 2397 from lihengming/master
+merge remote-tracking branch 'upstream/master '
+improve sqlwall
+improve mysql ddl parver
+add test
+add logo
+merge remote-tracking branch 'upstream/master '
+improve sql wall , support rand
+merge branch 'master ' of http : //github.com/alibaba/druid
+merge branch 'master ' of http : //github.com/alibabatech/druid
+add profile support
+merge remote-tracking branch 'main/master '
+add sql wall support
+improve sql-wall
+merge pull request # 3704 from ldming/master
+merge remote-tracking branch 'origin/master '
+merge remote-tracking branch 'origin/master '
+merge remote-tracking branch 'origin/master '
+add new test for java.time
+add source to java.nio.file.attribute
+add ng2junit
+remove empty line between doc-comment and annotation
+remove options.isjdt ( ) .
+simplify assertion
+update java.nio.channels
+add functiondeclaration .
+remove `` enum '' suffix from generate enum class type .
+merge pull request # 1302 from albertomisail : time
+update showmessage
+add more documentation
+remove storage annotation . ( # 2813 )
+merge remote-tracking branch 'upstream/master ' into feature/data_refactor
+merge branch 'master ' into servicecomb
+remove all common-log module ( useless ) .
+add zookeeper implement of cluster module .
+merge pull request # 3 from hanahmily/master
+add hystrix framework to support list
+compile success .
+restore module management .
+update the kubernetes client verion to 8.0.0 ( # 4844 )
+fix all source and sourcedispatchers . ( # 1620 )
+merge branch 'master ' of http : //github.com/wu-sheng/sky-walking
+merge pull request # 70 from ascrutae/fix/ # 69
+fix ttl issue . ( # 3292 )
+add all of the entity remote data class .
+merge branch 'master ' into ilucky-skywalking-xmemcached-v2
+1. solve compile issue . 2. remove test-api module
+merge branch 'master ' into feature/kafka-plugin
+modify worker num value
+add demo page
+merge branch 'master ' into feature/367
+merge branch 'master ' into feature/support-list-hystrix
+update rocketmq-3.x-plugin junit test like rocketmq-4.x-plugin
+compile success .
+make instance metric contains transaction , business transaction , mq transaction .
+make service metric contain transaction , business transaction , mq transaction .
+improve oap server performance . ( # 3127 )
+add dockerfile for oap server .
+merge branch 'feature/collector ' of http : //github.com/wu-sheng/sky-walking into feature/collector
+fix the inventory register lock invalid bug . ( # 2184 )
+provide gson/json-b messageconverter for spring-messaging ( align with spring-web )
+implement a more generic fill class instead of gradientcolor
+remove realm related class from project
+set custom suffix for large value
+remove barspace from bardataset
+add realm related example code
+remove redundant startatzero from yaxis , now use setaxisminvalue
+merge branch ' 1.0.x '
+merge branch ' 1.2.x '
+fix atlas percentiles tag
+merge branch ' 1.2.x '
+improve test suite to support step-interval base meter
+add boot configuration with @ enablemetrics , add resttemplate instrumentation
+restore abstracttimer constructor ( fixes # 541 )
+replace handlerinterceptor with filter ( # 188 )
+rename httpclient to httpsender
+merge branch ' 1.0.x '
+merge branch 'ssl '
+introduce interceptor
+introduce assertion helper class
+fix hardcoded port value
+add asynchttpclientfactory and asynchttpclientregistry
+merge branch 'master ' of github.com : ning/async-http-client
+merge remote branch 'hubert/findbugs-session '
+merge pull request # 35 from trask/master
+revamp websocket api , close # 1393
+spell correction in diagnostic message
+merge pull request # 282 from dokthar/sdk_scenecomposer
+merge pull request # 641 from jseinturier/jme3-vr-dev
+remove commented/unused code .
+fix the few uncheck warning that i could ... suppress
+merge branch 'master ' of http : //github.com/zzuegg/jmonkeyengine
+merge pull request # 423 from dokthar/sdk
+merge pull request # 488 from greencubes/master
+added update low-level code example for .net sdk 3.5
+update dynamodb code example in go
+add file via upload
+update java v2 example to late release build
+merge branch 'master ' of http : //github.com/awsdocs/aws-doc-sdk-examples
+create readme.md
+add nodegetstarted file for legacy clean up
+merge remote-tracking branch upstream/master
+add snippet to sqs java2 code sample
+add dependancy
+merge pull request # 1098 from scmacdon/master
+add code snippet to ec2 java v2 example
+merge pull request # 1096 from awsdocs/doug-update-s3-go
+merge branch 'master ' into pinpointsmtptypocorrection
+add file via upload
+merge pull request # 465 from mwunderl/master
+make unit test work
+merge branch 'master ' into master
+create metadata.yaml
+add java v2 example for iam
+upload typescript environment
+merge pull request # 1395 from awsdocs/doug-dotnet-update-dynamodb
+create readme.md
+merge pull request # 183 from thingsboard/feature/tb-67
+merge http : //github.com/thingsboard/thingsboard into map/3.0
+merge pull request # 1409 from andyesys/master
+merge branch 'master ' of github.com : volodymyr-babak/thingsboard
+merge branch 'master ' of github.com : thingsboard/thingsboard
+merge pull request # 480 from dmytro-landiak/master
+add miss getrelation method .
+merge branch 'master ' of github.com : thingsboard/thingsboard
+merge remote-tracking branch 'upstream/master ' into sql-dao-improvements
+merge branch 'master ' of github.com : thingsboard/thingsboard
+add fallback to english language for miss translation .
+create aws sqs queue ( # 2534 )
+merge remote-tracking branch 'upstream/master '
+comment unstable test
+merge branch 'develop/3.2 ' of github.com : thingsboard/thingsboard into develop/3.2
+merge branch 'feature/entity-data-query ' of github.com : thingsboard/thingsboard into feature/entity-data-query
+merge branch 'develop/1.5 ' into develop/1.5-no-more-plugins
+refactoring oauth2
+merge pull request # 470 from thingsboard/feature/tb-74
+fix some 's doc string
+fix pmd warning in generated code
+add caffeinespec for externalized configuration ( fixes # 37 )
+upgrade hamcrest to new coordinate
+parameterize the benchmark
+simplify trace reader interface by not throw ioexception
+merge pull request # 3194 from ffissore/windows-jna
+allow empty bundle hardware folder
+comment string api behavior .
+fix error line number . ( paul stoffregen )
+merge pull request # 96 from gandrewstone/master
+merge remote-tracking branch 'arduino/master '
+add arduino mini w/ atmega328 .
+update micro bootloader ( previous one be identical to leonardo ) .
+merge pull request # 3409 from carlosperate/patch-1
+move the flush method from stream to print
+change leonardo only examples to `` usb '' , add
+merge pull request # 3055 from ffissore/other-packages
+implement measurechildwithmargins ( view child , int widthused , int heightused ) in layouthelpermanager
+merge branch 0.8.x
+improve fix for # 1453 : promote the logic to asyncsupport
+add comment explaning how it work
+merge pull request # 1876 from allenxiang/master
+expose request/response object to websocketadapter
+remove trackable concept and support
+improve error handling , fix xdomainrequest double response
+fix idea screw javadoc format
+add support for tomcat websocket
+merge remote branch 'remotes/upstream/master '
+# 1426 switch to testng . add documentation and apache license
+decouple gwt server dependency
+merge branch 'master ' of http : //github.com/twitter/heron
+fix a bug in logginghelper
+add dhalion detector and diagnoser implementation for heron ( # 2132 )
+merge branch 'karthik/newscheduler ' of http : //github.com/twitter/heron into karthik/newscheduler
+merge pull request # 281 from twitter/karthik/aurora
+add support for ssh sock proxying to scheduler ( # 1456 )
+add more test for packingplanbuilder ( # 1580 )
+fix several check style under heron/common/src/java ( # 453 )
+add support for custom evictor and trigger policy ( # 2653 )
+add a generalized reducebykeyandwindow operator inside the streamlet ( # 2502 )
+remove safe-parcel test setting
+finish the activity if the app be delete
+merge pull request # 354 from mathijs81/master
+remove name from metricregistry .
+modify the guice listener to support non-public method .
+add proxy-target-class and expose-proxy option to metric : annotation-driven .
+merge pull request # 501 from norbertpotocki/documentation
+merge branch ' 2.x ' of github.com : netflix/zuul into 2.x
+remove netty module
+introduce a sample of treekey usage
+remove all @ deprecated thing about * scan
+fix redis leak when test
+implement objecthelp and objectfreq method . ( # 2141 )
+merge branch 'master ' of http : //github.com/lmar/jedis into lmar-master
+deprecate basiccommands from jediscluster since it have no meaning
+modify test ( # 2083 )
+merge pull request # 615 from xetorthio/hll-resurrect-afefb71e57b0258a52b465b2b4e57c132aef4db9
+add alternative pipeline usage
+merge branch 'master ' into cluster-revised
+merge branch 'variadic_arg_support ' of git : //github.com/shaofengniu/jedis into shaofengniu-variadic_arg_support
+merge pull request # 261 from hopana/file_remove_support
+update boot-service to spring-boot 1.2.1 and more simple
+merge pull request # 1630 from danieldietrich/to-validation
+merge pull request # 1262 from ruslansennov/mm
+merge pull request # 1245 from nicholasren/master
+reduce stream footprint
+merge pull request # 691 from danieldietrich/master
+merge branch 'master ' into tuple-prepend-append
+solves # 289
+merge pull request # 1511 from jorander/126_euler_number_42
+add zipwith & zipwithindex with bifunction
+added javaslang file header
+merge pull request # 1187 from malduarte/master
+merge pull request # 269 from jorander/126_euler_problems
+fix redblacktree.union ( ) . move seq.corresponds to iterable . remove abstractiterator.equals ( ) .
+add leftpadto ( int , t ) to seq .
+add search to seq
+fix sprite map issue .
+remove custom vertex format from bakedquad
+merge branch 'master ' of github.com : minecraftforge/minecraftforge
+render patch ( # 5262 )
+merge branch 'bspkrsgui '
+add blockstate and model data provider ( # 6241 )
+compile fix - in game !
+move example into integration test directory
+merge pull request # 9 from dnldsht/master
+merge pull request # 28 from mow3l/master
+update 里程碑
+add guess nature for nlpanalysis
+simplify agentbootstrap ; use long to store pid ; # 990
+merge pull request # 6 from mybatis/master
+merge branch 'master ' into gh/1466
+merge pull request # 1329 from wxisme/fix-comments
+merge pull request # 1521 from kazuki43zoo/gh-1518
+merge pull request # 1478 from kdubb/more_42_310
+merge pull request # 521 from hazendaz/master
+add timer tooltips
+merge pull request # 3294 from deathbeam/infobox-smaller
+add fight cave plugin
+merge branch 'master ' into master+arith
+add fairy ring plugin
+remove unused zulrah plugin asset
+add rogue ' den plugin
+rename `` low memory '' to `` low detail '' plugin
+simplify checkbox check in skill calc
+prepare release runelite-parent-1.3.1
+merge pull request # 6350 from monsterxsync/barrows-potential-reward
+merge pull request # 285 from unmoon/ground-items-coins-fix
+merge pull request # 9000 from hydrox6/clue-challenge
+merge pull request # 621 from sethtroll/removenullableclient
+restore plugin toolbar button tooltips ( # 2833 )
+merge pull request # 5816 from gravitysalad/additional-tags
+adjust overlay layer and priority
+add support for color picker in config
+split out cache updater into own project
+merge pull request # 4627 from kamielvf/itemstats-fix
+added kharedst 's memoir teleports
+merge pull request # 9272 from abextm/framedumpertest-index-confusion
+annotate script id with their argument count
+add pvp_world_types and ispvpworld
+merge pull request # 701 from abextm/camera-sorry
+update setmessage usage to chatmessage
+merge pull request # 4505 from deathbeam/fix-color-load
+call script with the correct number of argument
+add support for intercept mouse and keyboard input
+merge pull request # 3081 from psikoi/obsidian-redesign-v2
+merge pull request # 10777 from nightfirecat/clear-clue-scroll-on-empty-dev-command
+use only southermost ghost wave for cerb plugin
+merge pull request # 275 from robinweymans/hunter-plugin
+add tooltips to devtools button ( # 9224 )
+merge pull request # 1831 from bfgd/notes-wrap-fix
+include both delta qty and qty
+replace hard cod color with material color reference
+remove leakcanary
+fix load on android 11
+make all icon white by default .
+merge branch 'arkon-playlist-length '
+add more javadocs and update readme
+merge pull request # 519 from jasta/scraper-features
+demonstrate an `` optimal '' release configuration with stetho
+add dom.setattributeastext ( ) implementation
+stabilizes carriermovementtest # testsamevalueasequalshashcode
+add orderedrealmcollectionsnapshot ( # 4172 )
+merge branch 'master ' into al-migration
+merge branch 'transactions ' of http : //github.com/tightdb/tightdb_java2
+merge remote-tracking branch 'origin/master ' into merge-8c5f4c-to-master
+merge entry in changelog
+merge 07c391929a7d4d33312b92881582e4e6c29c5c3e into master
+merge remote-tracking branch 'origin/master-4.0 ' into merge-407e6a-to-master-4.0
+fix typo and changelog
+merge 617ecfd93bcc6582cbb878bf21868887a0691133 into master
+move file
+add script to deploy to bintray
+merge branch 'master ' into merge-71855f-to-master
+fix progress listener flaky test
+merge branch 'master ' of github.com : realm/realm-java into kg-link-query
+merge pull request # 954 from realm/cm-shadowjar
+merge pull request # 251 from hovoere/maven
+merge branch 'master ' of github.com : realm/realm-java into kg-link-query
+merge pull request # 2025 from stk1m1/master
+merge branch 'master ' into explicit_string_size
+merge d4f1e6a4abe77be510b4b8a186b646b935b3141d into master-4.0
+update changelog
+merge github.com : tightdb/tightdb_java
+merge pull request # 583 from leonardoxh/master
+split realm and realm annotation processor
+merge pull request # 996 from realm/cm-bug-migration
+move query test to realmquerytest .
+merge branch 'develop ' into breaking-updates
+merge 0b980a2c01e43f7a8ab60bf5484d664dc90b10f2 into master
+merge 397ab553d652dbbe23d8f850ab3c6f589c45580a into master-4.0
+merge branch 'master ' into master-sync
+fix javadoc
+merge branch 'master ' of github.com : tightdb/tightdb_java2
+merge branch 'master ' of github.com : tightdb/tightdb_java
+fix ojo upload by bump plugin dependency . ( # 6175 )
+merge branch 'master ' into ez-notifications
+merge ee4c5dfe93b773facee23f725838457ed9738873 into master-4.0
+add timeout to unit test
+merge branch 'master ' of http : //github.com/tightdb/tightdb_java2
+merge branch 'master ' into merge-3a36b1-to-master
+merge 4e15a65920e8b8c12d41f6e0bb4594f8e0cd7cd1 into master
+merge branch 'master ' of github.com : tightdb/tightdb_java into getsubtableschema-typo
+merge pull request # 1992 from realm/nh/core-0.95.7
+merge f957d873b18c63aadf6c7275747b257e02b54ce2 into master
+merge remote-tracking branch 'origin/nh-async-query ' into nh-async-query
+merge pull request # 740 from realm/cm-concurrency-example
+merge branch 'master ' of github.com : tightdb/tightdb_java into kg-reimplement-sort
+add `` allowwritesonuithread '' and `` allowreadsonuithread '' to realmconfiguration ( # 7123 )
+merge pull request # 2295 from realm/mc/clean-up-test-case
+add a few class in java ref-doc
+merge branch 'master ' into cm-primary-keys
+merge branch 'object-store-master ' into link-list
+add test for empty model class
+fix findfirst with sort ( # 5848 )
+merge 9290437b6f70e0004f3098e7da794f611c98e7f7 into master
+merge effedeccb5ceca66f29713639cc540ce50b1fdc2 into master-4.0
+catch null pointer in query with wrong field
+add android devel project
+improve javadocs for realm constructor
+merge fe56c690493fdbcae1d4059687b4a88bc41b04e5 into master
+merge branch 'master ' into lfn_unit_tests
+rename realm.create ( ) to realm.getinstance ( )
+rename hasindex ( ) to hassearchindex ( ) and setindex ( ) to addsearchindex ( ) .
+merge remote-tracking branch 'origin/master ' into ez-update-core
+merge branch 'cm-json-import-api ' of http : //github.com/cmelchior/realm-java into cm-json-import-api
+remove unused example
+merge b97b0888a4d9303dc8e81ce857909ad0ed0490a4 into master
+merge 95f01fb4a4e24f5f84932984670081375b42fcf6 into master
+merge 83ac582e5822e266585ada41ce7eec31046f04dc into master
+add integration-tests ( # 3601 )
+merge branch 'master ' into mc/os-schema-migration
+change signature of realm.allobjects ( ) , realmquery.findall ( ) , and realmresults.sort ( ) .
+ignore downloadprogresslistener_indefinitely
+merge pull request # 2080 from realm/cm/convert-unittests
+add support for new sort and distinct predicate ( # 5568 )
+merge pull request # 1698 from realm/cm/doc-project-structure
+modernize the git checkout code in the jenkinsfile ( # 3851 )
+emulate cachebuilder in gwt , gwtifying all requistie dependency
+implement charsource.asbytesource ( charset ) .
+split off multimaps.filterxxx overload for setmultimap ( and filterkeys ( listmultimap ) ) .
+add test suite for multimap.equals to multimaptestsuitebuilder
+fix some typo in guava/ *
+make known_order significant for map test .
+add the following method to the graph interface :
+remove space
+tweak doc
+add rule keyword translation in portuguese and spanish
+merge branch 'react-add-search-bar ' into pretty-parse
+improve custom transforms
+add a { word } parameter type , ref # 191
+remove user specific implementation
+prepare release redisson-2.12.5
+add exist for bucket
+merge pull request # 2995 from dengliming/f_calcslot_bug
+redirect exception refactoring
+merge branch 'redisson/master '
+merge branch 'master ' into new_pubsub
+prevent star import
+merge pull request # 1613 from pepe-lu/master
+resolve nest ref when there be no parent file
+implement configuration to override type for format .
+merge pull request # 812 from ehrmann/remove-commons-lang-from-pojos
+add support for yaml and yamlschema source type
+merge pull request # 454 from ctrimble/feature_target-version
+build apk from project ( dir ) support
+piped writer cause anr
+deprecate config apis
+merge pull request # 160 from allenxwang/master
+fixed # 142 .
+merge branch 'master ' of http : //github.com/netflix/ribbon into loadbalancer-refactoring
+add more example . remove declared ioexception from httpresponse.close ( ) .
+merge branch 'master ' of http : //github.com/netflix/ribbon into 2.x-ssl
+merge remote-tracking branch 'origin/master ' into dev-1.2
+add jobcreator interface to decouple job class from jobrequest
+modify the mockbase implementation to support multiple table .
+modify putdatapointrpc to allow for override when the rollup
+move class under correct project path
+fixup ! add lifecycleobserver and test
+add viewaction utility
+rename local var to avoid hiding others
+fix sha1
+fix up raw type warning
+fix javadoc waning
+move test code to test tree
+delete old test
+add getsourcetype api
+merge pull request # 228 from yiming187/health_check
+rename server to service
+polish some code ( # 3249 )
+add refreshscope demo
+fix some code warning
+merge pull request # 133 from yiming187/unique_check
+merge branch 'master ' of github.com : techempower/frameworkbenchmarks into add-restexpress
+merge pull request # 900 from hamiltont/install_box
+merge branch 'master ' into wicket-plain-jdbc
+merge pull request # 2082 from nbrady-techempower/silicon-fix
+rename asyncio > api_hour ( # 2527 )
+merge branch 'servlet3-cass ' of http : //github.com/marko-asplund/frameworkbenchmarks into 918
+bump ninja to version 4.0.0 .
+merge branch 'master ' into filter
+fix benchmark config and customize tomcat config
+upgrade library to jetty 9.2.9.v20150224 and curacao 2.9-m1
+fix a few issue
+remove wget in favor of curl
+optimize light-4j ( previous light-java ) for round 15 ( # 2785 )
+merge pull request # 1903 from valyala/master
+turnned off development environment for benchmark .
+merge branch 'master ' of http : //github.com/techempower/frameworkbenchmarks
+merge pull request # 1630 from stefanocasazza/master
+add readme file
+merge branch 'fix-finagle-tech ' of github.com : mosesn/frameworkbenchmarks into pr766
+merge branch 'master ' of http : //github.com/scruffy-project/frameworkbenchmarks into 867
+merge pull request # 1849 from techempower/erlang-frameworks
+try catch for database access .
+fixed view template
+add parallel async request for tornado
+merge branch 'mono-tarball ' of http : //github.com/methane/frameworkbenchmarks into 873
+merge pull request # 2493 from dith3r/master
+add file via upload
+merge pull request # 1895 from teamamaze/trancelove-feature/issue811
+merge pull request # 1377 from trancelove/bugfix/issue1097
+text reader intent filter mime type
+merge pull request # 907 from emmanuelmess/feature-sensiblecolors
+remove redundant code
+merge master
+merge branch 'master ' of http : //github.com/teamamaze/amazefilemanager into feature-add-marquee-filenames
+fix instruction markup
+fix screen rotation problem after pr # 1947 apply
+merge pull request # 1272 from emmanuelmess/fix-otguriforgetting
+merge pull request # 1108 from teamamaze/fix-watcher-progress-retry
+adjust value container size for response member
+merge branch 'master ' of http : //github.com/arpitkh96/amazefilemanager
+merge branch 'master ' of http : //github.com/arpitkh96/amazefilemanager
+merge branch 'master ' of http : //github.com/teamamaze/amazefilemanager into fix-watcher-progress-retry
+remove redundant roomdatabase.close ( ) at activity.destroy ( )
+merge pull request # 1126 from trancelove/fix-warnoninput
+fix possibility of archive entry extract outside specify destination
+merge branch 'master ' of http : //github.com/arpitkh96/amazefilemanager into searchviewmodification
+fix variable name in servicewatcherutil
+merge branch 'master ' into bugfix/issue1231
+merge remote-tracking branch 'origin/master '
+merge branch 'master ' into # 18_zooming
+merge branch 'master ' into javachickenandegg
+add my name to the author file .
+add generate delegate method to eclipse outline
+add test for warning on non-existing field
+merge branch 'pr-builder-on-instance-methods ' of http : //github.com/enriquedacostacambio/lombok into enriquedacostacambio-pr-builder-on-instance-methods
+replace size array in toarray with 0
+merge pull request # 873 from jstourac/hostname
+merge pull request # 896 from msfm/master_undertow-1717
+add container introspector
+merge pull request # 841 from carterkozak/ckozak/undertow-1638
+add support for write out the response
+add support for statistic in the client
+add initial support for serve pre-compressed resource
+enhance singlesignonauthenticationmechanism implementation to further simplify cluster integration .
+add web socket servlet
+fix race condition in gracefulshutdownhandler
+merge branch 'dev ' into sync
+merge remote-tracking branch 'origin/dev ' into sync
+prepare requestfullsync ( )
+drop unused deploy and verify task .
+adjust securityutils usage
+rename cacheprovider to cachemanager
+optimize horizontal scale
+optimize horizontal scale
+build tool for sophia
+merge remote-tracking branch 'origin/dev ' into dev
+merge branch 'issue230 '
+sort out import
+create new type matchableinvocation
+rename job
+rename returnvalues into answer
+promote most @ incubating feature
+remove unused import ( # 498 )
+fix the build
+introduce printable object : )
+merge pull request # 462 from christianschwarz/static_util
+merge pull request # 2042 from mockito/mock-resolver-plugin
+merge pull request # 3781 from ketan/feature/agent-status-endpoint
+merge pull request # 1671 from jyotisingh/1630_bug_fixes
+rewrite role representers by hand instead of use jrepresenter
+add data_sharing_server_url field in usage data reporting api
+add type attribute on fetchartifact ( # 4577 )
+merge pull request # 2365 from ganeshspatil/agents-bulk-update
+add pipeline count information to the about page
+scm end-point : pipeline-service cause circular dependency . use pipelinesqlmapdao instead .
+merge branch 'master ' of github.com : gocd/gocd into 1133-api-validations-rails-pr
+remove custom killproc and > /dev/null
+merge pull request # 840 from srinivasupadhya/notification-end-point
+remove share version v6
+upgrade jetty from 9.2.18 to 9.4.9
+refresh elasticagent-operatingsystem and elasticagent-usablespace while initialize the runtimeinfo ( # 3060 )
+remove dead code and improve code where possible ( # 2400 )
+merge pull request # 3955 from maheshp/cctray_view_permission_fix
+perform backup via a cron define in config xml
+added admins api
+merge pull request # 678 from mdaliejaz/fixhelppagelink
+improve checksum for agent jar ( s ) download ( # 3884 )
+merge pull request # 7271 from viraj2712/update-policy-to-support-config-repo
+merge pull request # 5419 from bdpiparva/move-agents-api-to-spark
+merge branch '1133-services ' into 1133-minimal
+introduce a time-travelling ticker
+handle @ postconstruct failure with appropriate error message
+move out elastic profile out of server config
+remove ` name ` from ` accesstoken `
+validate cluster profile id reference on elastic profile ( # 5538 )
+merge branch '1133-goxml-plugin ' into 1133-scm-cons
+move http servlet request/response mock into it own module
+merge pull request # 1562 from sghill/deprecated-has-permission
+remove parameter from public template config api
+merge pull request # 6703 from ibnc/mat_check_api
+move java controller and representer to api module
+revert `` support for edit action on policy '' ( # 7435 )
+merge pull request # 2976 from ganeshspatil/remove-support-txt
+merge pull request # 3355 from ganeshspatil/upgrade-js-libraries
+decouple sqlexecutors and jdbc object ( # 5185 )
+add question number string rule
+merge pull request # 1706 from tuohai666/dev
+remove routingunits .
+merge pull request # 1520 from tristazero/dev
+add channelregistry
+merge remote-tracking branch 'upstream/dev ' into dev
+merge pull request # 2099 from cherrylzhao/dev
+merge branch 'dev ' of ssh : //github.com/shardingjdbc/sharding-jdbc into dev
+remove governance-core-metadata module ( # 7404 )
+merge branch 'dev ' of http : //github.com/sharding-sphere/sharding-sphere into dev
+merge pull request # 5388 from kimmking/fix5366
+replace tablemetadata in sharding-scaling-module ( # 5005 )
+rename datasourcemetadatas to datasourcesmetadata ( # 7680 )
+merge branch 'dev ' of http : //github.com/shardingjdbc/sharding-jdbc into dev
+remove sqlsever sqlselect
+merge branch 'dev ' of http : //github.com/sharding-sphere/sharding-sphere into dev
+add new domain typedpropertyvalue ( # 4809 )
+modify columnconstraints rule
+merge branch 'dev ' of ssh : //github.com/shardingjdbc/sharding-jdbc into dev
+simplify sqlparsedresult
+fix mysql binlog sync filter schema
+merge limit and limitcontext
+add import
+fix bug for insert with table.column
+remove old dcl parser
+merge pull request # 1543 from loxp/antlr-parser
+merge branch 'dev ' of http : //github.com/sharding-sphere/sharding-sphere into dev
+remove useless code
+optimize thread pool for initial the metadata .
+remove useless @ sneakythrows
+update orchestration
+merge remote-tracking branch 'apache/dev ' into feature/bug-fix
+merge branch 'dev ' of ssh : //github.com/shardingjdbc/sharding-jdbc into dev
+rename schema.loader 's spi class name ( # 8062 )
+modify collatename_
+move sharding-transaction-spring from sharding-sphere repository to sharding-spring repositoty
+merge pull request # 1623 from codefairy08/dev
+update checkstyle rule for filter
+modify abstract orchestration data source
+parse constraint for create table ( # 4487 )
+fix governanceschemacontextsfixture
+remove useless catch exception
+add renewdisableddatasourcenames
+move singlexaresource to spi for other transaction manager integration .
+modify createtable rule
+add executecallback
+remove useless code for yamlshardingconfiguration
+merge pull request # 1956 from cherrylzhao/dev
+merge pull request # 2146 from tristazero/dev
+add jdbcexecuteresponse
+merge remote-tracking branch 'upstream/dev ' into dev
+merge pull request # 1843 from tristazero/dev
+modify sqlrewriteengine to abstract
+remove parameter for parse
+merge pull request # 2799 from jingshanglu/dev
+modify assertsimpleshardingdatasource ( )
+merge remote-tracking branch 'upstream/dev ' into dev
+merge pull request # 2554 from cherrylzhao/dev
+add sqlserver output clause keywords .
+add pre read next token function .
+add t_address broadcast table setting .
+create shardingsphere-kernal module ( # 5668 )
+update release note for 2.0.3
+remove trunk span in overallexecuteeventlistener
+merge pull request # 6344 from tristazero/new
+merge remote-tracking branch 'remotes/upstream/dev ' into dev
+add startindexofgeneratedparameters
+rewrite handlemasterslavedatasources .
+add sharding-metrics unit test coverage rate . ( # 5463 )
+merge branch 'dev ' of http : //github.com/sharding-sphere/sharding-sphere into dev
+merge branch 'dev ' of ssh : //github.com/shardingjdbc/sharding-jdbc into dev
+add er_bad_db_error
+merge remote-tracking branch 'origin/1.5.2-snapshot ' into 1.5.2-snapshot
+add assertselectwithstar ( )
+establish shardingsphere-pluggable module ( # 4988 )
+fix bug : cartesian rout adjust issinglerouting
+merge branch 'dev ' of ssh : //github.com/shardingjdbc/sharding-jdbc into dev
+add close datasource function
+remove metadata_center type ( # 6436 )
+fix # 2417 , get connection from first actual node in resultsetreturneddatabasemetadata
+move package core.job.sync.executor to core.execute
+add master-slave-core module
+modify registry center root node
+add the translation for preface
+merge branch 'master ' into metrics-config
+add authorityhandlertest.java
+merge branch 'dev ' of http : //github.com/sharding-sphere/sharding-sphere into mysql_dml
+add test & add sql grammer
+merge branch 'dev ' of http : //github.com/apache/incubator-shardingsphere into dev
+merge remote-tracking branch 'origin/dev ' into dev-3.1.0
+adjust project structure
+merge branch 'dev ' of http : //github.com/sharding-sphere/sharding-sphere into dev
+remove useless getallsqlsegments ( ) .add ( xxx ) ( # 4461 )
+merge pull request # 2674 from nancyzrh/add_jenkins
+modify configwithdatasourcewithoutprops.yaml
+add resultprocessentry
+merge pull request # 7243 from happybyr/master
+add columnextracthandler
+add < module > sharding-assembly < /module >
+add data source map
+add valueastnode ( # 4213 )
+merge pull request # 3989 from terrymanu/parser
+add js-yaml
+merge pull request # 863 from tuohai666/dev
+update javadoc
+move sharding.core = > sharding.transaction.spi
+move shardingspheremetadata to shardingsphere-common module
+merge remote-tracking branch 'remotes/upstream/dev ' into dev
+merge branch 'dev ' into dev
+fix repositoryresumebreakpointmanagertest bug ( # 7422 )
+add limit package
+modify getkeygeneratorconfiguration ( )
+modify tostring ( )
+add method findfirstchildnodebreadthfirst
+simplify okpacket
+add contributing.md file to the repository
+merge origin/master
+merge origin/master
+add ratpack support , close # 74 ( # 82 )
+issue # 571 : spring boot healthindicators use the registry now
+fix sonar finding .
+fix bug
+kill @ inject support in litho spec
+deprecate isnestedtreeresolutionexperimentenabled and use isreconciliationenabled instead
+move out mountdelegateinput and mountdelegatetarget
+remove release ( ) method from all component builder
+add track for source of layoutstate.calculate call
+rename resource package
+refactor the implementation of owner key for transition
+add builder for specmethodmodel
+add support for nested sequences/parallel set of animation
+add initial animated end-developer api
+add support for onupdatestatewithtransition : generate method and related class
+remove onlastitemattached lifecycle
+remove transition api
+add trigger example code
+remove componentlayout.containerbuilder and componentlayout.builder
+add custom categorization for each error report
+add lz4 compression stub
+eliminate markdown from javadoc .
+add separate executor option
+improve javadoc
+remove deprecate method and field
+fix # 333 by add license header to /examples/ *
+merge pull request # 220 from square/jwilson_0208_box
+merge pull request # 177 from square/jw/didnt-even-know-it
+add configurable indent
+optimize the api chain .
+merge pull request # 349 from alexjuca/master
+flip warehouse.getdefaulttablepath ( ) to return external path ( naveen gangam )
+restore passive method signature . add miss log parameter binding .
+prevent `` null '' url server url prefix
+fix javadoc comment .
+separate encoder and decoder for client serialization/deserialization
+add superclass for example activity to aggregate duplicate code .
+improves documentation
+remove synthetic field for inner class
+merge branch 'master ' into rename
+make link for full class name ( # 378 )
+simplify condition
+update dependency
+improve memory usage ( # 79 )
+merge branch 'master ' into type-inference-wip
+drop javac7 support : remove jdk7-compatibility shim , and merge jdk8
+modify abstractreturnvalueignored
+add an annotation-driven version of incompatible type checking .
+update the interface contract of multimatcher
+fix bug relate to character literal
+remove the 'disableable ' attribute from @ bugpattern .
+discourage use of the default charset
+fix wildcard import .
+drop javac7 support : remove jdk7-compatibility shim , and merge jdk8
+simplify the way we inject into view
+extend view injection to all activity
+create menu get api for menu .
+change some class name .
+create theme content api . ( # 503 )
+merge remote-tracking branch 'origin/v1 ' into v1
+set theme jekyll-theme-architect
+merge remote-tracking branch 'origin/v1 ' into v1
+translate param tip .
+merge remote-tracking branch 'upstream/master ' into 5.3.0-conformance
+merge branch 'master ' into nativeanimation
+merge remote-tracking branch 'uxbert/5.5.1-load-image-from-url ' into fix-display-none
+improve model click listener handle ( # 393 )
+add test for class in different package ( # 50 )
+add unit test for issue # 5
+add useidentitynumber option to encoder/decoder .
+replace some more usage of graphhopperstorage constructor with graphbuilder
+merge pull request # 1228 from boldtrn/gmted20102
+add weighting.calcmillis to allow more flexibility , fixes # 393
+fix # 50
+add some querygraph # lookup overload for convenience
+improve tag extraction ( # 2091 )
+replace graph.edge ( a , b , dist , flag ) by graph.edge ( a , b ) .setdistance ( ) .setflags ( )
+use edgeiterator in all weightcalculations
+create ja.txt
+fix a bit refactoring
+introduces graphhopperapi , still need to do work about directory.loadexisting
+remove resteasy clientrequest
+merge pull request # 1086 from mposolda/master
+merge pull request # 331 from patriot1burke/master
+merge pull request # 2244 from mposolda/master
+merge pull request # 3314 from stianst/key-rotation
+merge pull request # 4748 from mstruk/keycloak-5762
+merge pull request # 3938 from pedroigor/authz-fixes
+merge pull request # 4702 from patriot1burke/master
+add integration-arqullian saml servlets page object
+merge pull request # 1639 from stianst/master
+merge pull request # 3636 from vramik/keycloak-3042
+merge pull request # 4363 from pedroigor/keycloak-5240
+merge pull request # 2898 from stianst/master
+merge pull request # 3651 from stianst/keycloak-4081
+merge remote-tracking branch 'upstream/master '
+consolidate jpa
+merge pull request # 3832 from stianst/keycloak-4370
+merge remote-tracking branch 'upstream/master '
+add apache 2.0 license
+merge pull request # 4178 from pdrozd/ldap-import-test
+merge remote-tracking branch 'upstream/master '
+bind custom flow
+merge pull request # 3884 from vramik/keycloak-4262
+merge pull request # 4509 from teliasoneranorge/keycloak-5032
+merge pull request # 1915 from mposolda/master
+fix test
+add integration test
+fix instruction in built-in help
+merge branch 'master ' into master
+merge remote-tracking branch 'upstream/master '
+merge pull request # 217 from mposolda/master
+merge pull request # 3142 from vmuzikar/keycloak-3429
+merge remote-tracking branch 'upstream/master '
+merge pull request # 3437 from patriot1burke/master
+merge pull request # 721 from mposolda/master
+merge pull request # 4264 from stianst/keycloak-5074
+merge pull request # 1430 from patriot1burke/master
+add path for migration test realm
+merge remote-tracking branch 'upstream/master '
+merge pull request # 1549 from ahus1/ahus1_jetty_contenttype
+merge pull request # 4496 from patriot1burke/master
+merge pull request # 3289 from patriot1burke/master
+merge pull request # 3820 from patriot1burke/master
+merge pull request # 3079 from patriot1burke/master
+merge pull request # 3441 from stianst/keycloak-3733
+merge pull request # 2129 from georgekankava/staging/literal-boolean-values-should-not-be-used-in-condition-expressions-fix-1
+add spring security adapter
+merge pull request # 1291 from aoepeople/keycloak-1305
+fix saml test
+merge remote-tracking branch 'upstream/master '
+remove clientmodel.getagent ( )
+merge pull request # 3239 from stianst/server-profile
+revise german translation for login page in base theme
+merge pull request # 2118 from patriot1burke/master
+merge pull request # 412 from mposolda/master
+merge pull request # 205 from vrockai/forms3
+fix kerberos test broken in some environment
+merge pull request # 3656 from patriot1burke/master
+remove the deprecate from readstring ( inputstream , charset )
+merge pull request # 3722 from stianst/keycloak-4096
+merge pull request # 5123 from patriot1burke/kcadm-token
+fix more
+update readme
+update soul rank column
+update soul return type
+deprecate the method around executionisolationthreadtimeout in favor of exectiontimeout .
+merge pull request # 960 from michaelblume/avoid-reflection
+merge pull request # 1210 from mebigfatguy/master
+add observableexecutionmode to change between observe ( ) and toobservable ( ) method
+merge pull request # 1320 from zsoltm/1.5.4.collapse-observable
+merge pull request # 803 from dengshilong/master
+clarify release/shutdown method
+add hmily repository module .
+add sofa-rpc-demo ( # 176 )
+remove useless code on sample project
+move exceptionwithcontext to util module
+rename dexfile to dexfilebuffer
+add thumbnail for binance , bittrex , blockchaininfo , iconomi , kucoin , liqui
+add setting for auto backup
+merge pull request # 353 from pgalbraith/pr/checkstyle-eclipse
+integrate rzo1 's postgres example .
+fix some annotation bug and add some integration feature
+fix subtypeof in ctarray
+add powerjob user img
+remove tasktimelimit because i ca n't stop the running thread .
+finish the simple processortracker
+added miss documentation and test .
+add caching of hash code computation .
+added further documentation and test case .
+fixed further test .
+added further test , refactored several exist test .
+add a possibility to register an explicit type initializer .
+prepare parsing of `` application stop '' event ( # 90 )
+add full support for -xx : +printgcdatestamps in g1 algorithm
+merge branch 'jdbc-support '
+add readme documentation a stub
+implement multiple date selection
+merge branch 'master ' of /u/nlp/git/javanlp
+tweak protobuf ; remove openie annotator
+remove some unneeded todos
+merge branch 'master ' of /u/nlp/git/javanlp
+merge branch 'master ' of origin
+merge branch 'master ' of origin
+merge remote-tracking branch 'refs/remotes/origin/master '
+managing import
+merge branch 'master ' of /u/nlp/git/javanlp
+move trainparsertest to shiftreduceparsertest
+add extractopt to phraseextractneuraltraining
+merge branch 'master ' into emnlp14-imt
+add new script
+try change
+merge branch 'master ' of origin into nplm
+merge branch 'master ' of /u/nlp/git/javanlp
+change format to match general corenlp style guideline
+merge branch 'master ' of /u/nlp/git/javanlp into srparser
+merge branch 'master ' into mt-preordering-feat
+merge branch 'master ' of scail : /u/nlp/git/javanlp
+add bilingual embedding and test
+add left3words-nodistsim back to the tagger distrib
+merge branch 'master ' into java8
+merge branch 'master ' of jamie.stanford.edu : /u/nlp/git/javanlp
+merge branch 'kbp ' into chaganty-hypatia
+merge branch 'master ' into kbp
+merge branch 'master ' of origin
+merge branch 'master ' of ssh : //origin
+add a comma if necessary when combine option
+add javacc 6 to the core library
+merge branch 'master ' of origin
+merge branch 'master ' of ssh : //origin
+optimize import ; fix indentation .
+merge branch 'master ' into naturalli
+make the gettokenizer method public
+merge branch 'kbp ' of jamie : /u/nlp/git/javanlp into kbp
+make some stuff static or final
+consolidate code
+close a few resource here and there ?
+merge branch 'attr ' of origin into attr
+merge branch 'master ' into pattern
+merge branch 'master ' of /u/nlp/git/javanlp into srparser
+merge branch 'master ' of origin
+rename dvseed to randomseed
+remove unneeded import .
+merge branch 'master ' of origin into srparser
+add source for jopt-simple.jar and intellij config for exemplar
+merge branch 'master ' of origin
+merge branch 'master ' of jamie : /u/nlp/git/javanlp
+merge branch 'master ' of origin
+merge branch 'kbp ' of origin into kbp
+replace deprecation usage of ioutils
+merge branch 'master ' of jamie.stanford.edu : /u/nlp/git/javanlp
+merge branch 'master ' of jamie : /u/nlp/git/javanlp
+merge branch 'sonal '
+add tokensregex demo example .
+fix a weird null pointer corner case ?
+merge branch 'master ' of origin
+merge remote-tracking branch 'origin/master '
+merge branch 'master ' of jamie : /u/nlp/git/javanlp
+remove an unneeded include
+add google convergence heuristic
+reorganize static file ; dynamic minifying
+merge branch 'master ' of jamie : /u/nlp/git/javanlp
+merge branch 'master ' of /u/nlp/git/javanlp
+create java api for tuffy
+merge branch 'master ' into pattern
+merge branch 'master ' of /u/nlp/git/javanlp
+update the readme
+merge pull request # 1084 from stanfordnlp/angel-coref
+fix a random assortment of javadoc error
+merge branch 'master ' of origin
+change all edu.stanford.nlp.util.filter code reference to java.util.function.predicate and java.io.serializable
+merge branch 'master ' of jamie.stanford.edu : /u/nlp/git/javanlp
+merge branch 'master ' into kbp
+reset default to best value
+merge branch 'master ' of ssh : //origin
+merge branch 'uist14 ' of /u/nlp/git/javanlp into uist14
+merge branch 'master ' into userguide
+disable anim exit callback for lazy load
+migrate project to androidx
+develop comment option
+add commits file diff
+add repo collection
+added forcereset handling and world seed specification .
+merge pull request # 230 from microsoft/chat_reward
+merge branch 'master ' into hac2
+merge branch 'rebalancing ' of git : //github.com/bbansal/voldemort into rebalancing
+suppress warning on deprecated thing we must use .
+implement atomic multi version put to storage
+merge pull request # 343 from gnb/voldeng-2170
+merge change from batch-store2 branch .
+format cleanup
+merge remote branch 'upstream/master ' into new-routedstore
+merge branch 'rebalancing ' of github.com : bbansal/voldemort
+revert `` issue 198 : nosuchelementexception in readrepair . ''
+merge branch 'selector_timeout '
+fix a potential npe in asyncoperationstatus .
+merge remote branch 'upstream/master ' into nio-server2-cleanup
+add more verbose logging
+add read-only store compression .
+add fs store -- a file-per-value storage engine .
+work stacktracecodec v2
+move json utility into separate package
+add codec-private metadata to fieldinfos
+upgrade the cluster plugin to carrot2 3.15.0 .
+regenerate snowball stemmer so they be n't so heavy
+quieten down solrcloud logging
+simplify flag for postingsenum
+merge remote-tracking branch 'upstream/master ' into solr-10335
+remove block join facet component in favor of uniqueblock ( \_root_ ) .
+add min/max per dimension to dimensional value
+fix more javadocs warning
+move function group collector from solr to group module .
+enable different rewrite method for multitermquery
+fix remain auxilliary class warning in solr
+remove or cutover all us of now unsupported version
+add extra query stats to requesthandler
+extend norwegian stemmer to handle nynorsk
+bring back tfidfsimilarity.lengthnorm
+add support for lucenematchversion in analyzer , tokenizers and tokenfilters .
+merge branch 'master ' of http : //git-wip-us.apache.org/repos/asf/lucene-solr
+ensure number return for pendingdeletes be well define
+fail the build on wrong svn
+add getcorecontainer ( ) method to jettysolrrunner
+expose fst off/on-heap option on lucene50postingsformat ( # 613 )
+merge trunk
+remove some test cruft
+revert `` solr-11795 : add solr metric exporter for prometheus ''
+add back si.attributes
+make directoryfactory # create ( ) take lockfactory
+merge remote-tracking branch 'origin/master ' into gradle-master
+merge branch 'sequence_numbers '
+merge remote-tracking branch 'origin/master '
+compare utf-8 byte instead of convert to utf-16 first
+merge corecontainer preregisterinzk and register method into create method
+put more out-commented @ override back in . add more .
+remove unnecessary deprecate class
+merge branch 'apache-https-master ' into jira/solr-8593
+merge branch 'master ' into jira/lucene-5438-nrt-replication
+fix link to lucene java bug page ( # 909 )
+add lucene50codec ( info , dv , norm )
+remove legacy solrcache implementation .
+finish and improve mdc context log support .
+add terms.hasfreqs
+fix or suppress warning in solrj/cloud/autoscaling
+add testutil.getdefaultcodec ( )
+revert `` solr-11746 : adding doc for negative existence query . ''
+revert `` lucene-8213 : introduce asynchronous caching in lruquerycache ( # 815 ) '' ( # 914 )
+allow trail colon in changes.txt section name
+add longpoint.newsetquery ; improve pointinsetquery.tostring
+added attribute reflection api
+merge branch 'master ' into jira/solr-8593
+introduce solrj type for json facet response parsing
+fix hadoop test with security manager
+implement resultsetmetadataimpl getcolumntype and getcolumntypename
+add icutokenizer , tailorable impl of unicode text segmentation
+group sortwithingroup should n't be null ; use sort.relevance .
+merge branch 'apache-https-master ' into jira/solr-8593
+improve test logging
+merge remote-tracking branch 'origin/master '
+revert `` refactor method name ''
+remove solr deprecation - fieldtype.getvaluesource migration
+add a public , extensible score api .
+remove all @ author tag from lucene/solr source
+fixed some lucene core javadoc link
+persist package jar locally & expose them over http
+add trigger base on document count / index size .
+switch all fst usage to enable array-with-gaps encode
+consolidate parentarray and childrenarrays into paralleltaxonomyarrays
+enforce max allow indexed position
+remove booleanfilter .
+fix more violation
+merge branch 'master ' of http : //git-wip-us.apache.org/repos/asf/lucene-solr
+fix yet another case where we can not tile .
+merge branch 'feature/volume-type-getter ' into feature/fuse-on-win
+clean up unlock window
+implement # 363
+make test work on window
+merge branch 'fix/1409 ' into hotfix/1.5.10
+merge branch 'develop ' into feature/663-refactored-launcher
+add some javadoc to provider.java
+fix credential save bug and crash ( # 1111 )
+fix issue 1278
+prevent illegalargumentexception in savecredentialsactivity
+rename surface api to use external-friendly name
+fix the taskbar show on invisible activity .
+fix firebasei package name typo
+remove all deprecate stuff ( # 609 )
+break up firebase/play version ( # 1285 )
+change some inline conditionals
+merge pull request # 69 from grandcentrix/feature/exception_handling_and_put_remove_improvements
+merge branch ' 6.0.x '
+fix # 56 , error when generate javadoc with jdk8
+merge branch 'master ' of github.com : mrniko/netty-socketio
+reactor the blink sql
+merge pull request # 3517 from mdvx/develop
+merge branch 'develop ' into dependabot/maven/io.netty-netty-all-4.1.43.final
+fix code style
+merge branch 'develop ' into coinmate
+merge pull request # 3491 from obseries/kucoin-fixes
+bump mockito-core from 3.3.3 to 3.4.4
+merge branch 'develop ' into coinmate
+adds price history ( candlestick )
+merge branch 'master ' into clean_up_tls_factory_code
+fix evaluation of mathematical expression in sql and eval ( )
+merge branch 'develop ' of github.com : orientechnologies/orientdb into develop
+fix # 4473 and # 3863
+merge branch 'develop ' of github.com : orientechnologies/orientdb into develop
+bring back init container , limit rbac
+merge branch 'develop ' of github.com : orientechnologies/orientdb into develop
+merge branch 'develop ' of github.com : orientechnologies/orientdb into develop
+reformatted everything
+merge branch 'develop ' of github.com : orientechnologies/orientdb into develop
+merge branch 'develop ' into laa_develop
+implement insert executor
+merge branch 'develop ' of github.com : orientechnologies/orientdb into develop
+merge branch 'develop ' into laa_develop
+release 2.0.1
+merge branch 'develop ' into laa_develop
+merge remote-tracking branch 'origin/develop ' into develop
+remove redudant null checking
+merge branch 'develop ' of github.com : orientechnologies/orientdb into develop
+start fix for evaluate in memory lucene
+merge branch 'develop ' of github.com : orientechnologies/orientdb into develop
+add security check for script execution
+add first implementation of embedded factory
+enhance api to create view and implement metadata serialization
+merge branch 'develop ' of github.com : orientechnologies/orientdb into develop
+merge branch 'develop ' of github.com : orientechnologies/orientdb into develop
+restart implementation of master slave structural operation
+merge branch 'develop ' of github.com : orientechnologies/orientdb into develop
+support null for contains
+merge branch 'develop ' of github.com : orientechnologies/orientdb into develop
+add support for incremental backup stream for distribute sync
+handle collate parameter value in alter property
+review some distributed test for work with 3.0
+merge pull request # 7597 from orientechnologies/commit_with_retry
+merge remote-tracking branch 'origin/develop ' into develop
+fix test for alter property
+merge pull request # 8147 from markodjurovic/gettypedfieldoptimization
+merge remote-tracking branch 'origin/develop ' into develop
+merge branch 'develop ' into laa_develop
+start definition of transaction flow with new coordinator
+add statefulset and configs
+merge branch ' 1.7.4 ' of http : //github.com/orientechnologies/orientdb into 1.7.4
+implement index usage to traverse supernodes ( pattern matching )
+turn on foreground service in expert setting
+move new activity back to original name
+merge branch 'master ' into development
+enable axolotl encryption for jingle support file transfer
+pulled translation from transifex
+merge open street map plugin
+pulled translation from transifex
+implement self heal omemo
+modify some
+improve some
+add window animation
+avoid unnecessary file type adaptation
+use a regex to match citation key
+merge remote-tracking branch 'origin/master ' into feature/command-palette-settings
+implement accessibility role
+merge remote-tracking branch 'origin/v1.3 '
+merge branch 'feature/panmirror-dev '
+merge branch 'master ' into feature/a11y-dialog-box-fixes
+merge pull request # 5704 from rstudio/feature/centos8-docker-builds
+add additional thread safety guard
+merge branch 'feature/panmirror-zotero ' of http : //github.com/rstudio/rstudio into feature/panmirror-zotero
+merge pull request # 7759 from rstudio/bugfix/embedded-ace-scrolling
+create 1.4 branch for custom gwt source
+remove remain hardcoded rmd extend type
+merge remote-tracking branch 'origin/master ' into feature/panmirror-dev
+add bracket escape for gfm
+make helpbutton control accessible
+merge remote-tracking branch 'origin/master ' into feature/panmirror-dev
+add support for ragg renderer ( # 6539 )
+merge pull request # 6525 from rstudio/bugfix/renv-init-subprocess
+leave some todos
+merge pull request # 5909 from rstudio/feature/shiny-background-job
+merge branch 'feature/panmirror-dev ' into feature/panmirror-citations
+implement unregister chunk callback
+apply theme font to history and vcs pane
+merge remote-tracking branch 'origin/master ' into feature/panmirror-dev
+merge branch 'master ' of http : //github.com/rstudio/rstudio into feature/source-columns
+merge remote-tracking branch 'origin/master ' into bugfix/jdk11-deprecation-warnings
+rename function to make call more clear
+tolerate null extend type
+merge pull request # 7701 from rstudio/bugfix/missing-active-column
+merge remote-tracking branch 'origin/feature/panmirror-dev ' into feature/panmirror-symbol-picker
+apply proper handling of regex checkbox
+remove unused import
+merge branch 'feature/panmirror-dev '
+add more code for progress tracking
+install ninja in the window docker container
+merge pull request # 4942 from rstudio/bugfix/rsession-unit-hang
+merge remote-tracking branch 'origin/master ' into feature/panmirror-dev
+use both ctrl+space and ctrl+shift+space for non-breaking space
+resolve # 22 initial support for @ embedded type
+apply the typecache to other module .
+add unit test for jodd decora module
+merge remote-tracking branch 'origin/master '
+use base jodd class for everything .
+remove chunk cache a it be useless
+merge pull request # 552 from moh-sushi/classutiltest_getclasses
+add support for hana cloud
+change default name
+merge branch 'master ' of github.com : hibernate/hibernate-core
+send html for error be unhelpful
+remove replicationzookeeper class
+hbase-14714 some cleanup to snapshot code
+fix testtransform breakage on hudson
+combine mvcc and seqid
+improve request reading
+upgrade gradle version to 5.6.3
+merge pull request # 8565 from michalszynkiewicz/rm-2.0
+merge pull request # 13471 from mkouba/issue-12933
+merge pull request # 585 from fromage/logging-filter
+fix cache exception handle
+merge pull request # 1351 from gsmet/rename-config-file-in-it
+merge pull request # 9032 from vsevel/issue_8826
+merge pull request # 3961 from gsmet/fix-packages
+merge pull request # 12563 from stuartwdouglas/instrumentation-restart
+fix server side content negotiation
+merge pull request # 5742 from jmartisk/master-issue-4518
+remove weld completely
+merge pull request # 6642 from pavolloffay/fix-https-opentracing-tck
+merge pull request # 2095 from cristhiank/issue1925
+add wellness health handling
+simplify runtime class transformation
+provide rest-client- < serialization > extension
+add support for @ suspend
+merge pull request # 7723 from ge0ffrey/upgradeoptaplannerto7.34
+merge pull request # 142 from protean-project/add-vertx-producer
+merge pull request # 12843 from marcinczeczko/amazon-services-tracinginterceptor
+introduce async exception mapping to resteasy reactive
+merge pull request # 10085 from dloiacono/quarkus-reactive-mongo-database-unwrap
+merge pull request # 1572 from stalep/gradle-resolver
+merge pull request # 7760 from stuartwdouglas/sec-tests-ut
+merge pull request # 8817 from schulzp/native-kafka-client-sasl-8168
+revert `` various cleanup on webjars-locator extension ''
+merge pull request # 6829 from manovotn/arcdocumentbuilditems
+merge pull request # 10973 from stuartwdouglas/10943
+fix break gradle buildnative
+merge pull request # 6924 from sberyozkin/oidc_fixes
+merge pull request # 10349 from aguibert/jdbc-db2
+merge pull request # 12428 from mkouba/issue-7376
+merge pull request # 3255 from rsvoboda/quarkusjaegermetricsfactory.add.name
+introduce resteasy-jackson extension
+fix possible timeouts on devtools project generation test
+merge pull request # 110 from dmlloyd/weak
+merge pull request # 12902 from machi1990/fix/12898
+bump netty version to 4.1.42.final
+introduce quarkus-rest-client-mutiny extension
+merge pull request # 8120 from devisions/8088-oidc-proxy
+bump flyway-core from 6.4.4 to 6.5.0
+add a section about reactive in the json guide
+merge pull request # 10338 from mkouba/issue-10203
+merge pull request # 6430 from gsmet/fix-6428
+merge pull request # 10674 from geoand/ # 10046
+merge pull request # 6152 from dmlloyd/yaml-doc
+merge pull request # 1104 from sanne/moreloggingdocs
+fix issue with .env file and workingdir property
+close the emf on shutdown
+merge pull request # 12727 from quarkusio/dependabot/maven/io.smallrye-smallrye-jwt-2.3.1
+use good style cdi when obtain the datasource
+merge pull request # 4760 from fromage/security-guides-tweaks
+handle null main sourceset
+relax output check to pass on window with cmder
+merge pull request # 11342 from antonwiens/feature/amazon-trust-config
+merge pull request # 9417 from aloubyansky/9232
+merge pull request # 11999 from ppalaga/200909-manage-httpmine
+fix the usage of native image
+merge pull request # 4098 from geoand/spring-web-jackson
+support the implement configuration
+merge pull request # 6005 from gsmet/pull/5989+5980
+merge pull request # 7112 from sanne/tcclserviceloadingissues
+merge pull request # 13694 from yrodiere/session-inject
+fix minor format issue in qute documentation
+merge pull request # 12225 from xumk/support-star-in-cors-config
+merge pull request # 2583 from manovotn/issue2560
+fix html structure .
+deprecate coin.longvalue ( ) in favour of access coin.value directly .
+remove redundant modifier
+provide a consistent frombase58/tobase58 api for the versionchecksummedbytes hierarchy .
+hide genesis block behind a getter .
+fix comment indentation
+allow equaltojson to accept unencoded json
+merge remote-tracking branch 'upstream/master ' into rob-jetty-refactor
+merge pull request # 217 from chbatey/threads-configurable
+validate cert by default on forward proxy
+make the number of container thread configurable .
+add eventnode in stest testng.conf
+add shield case
+merge pull request # 3430 from tronprotocol/modify-the-class
+add optional `` data '' parameter on triggerconstantsmartcontract and triggersmartcontract apis
+merge pull request # 3211 from tronprotocol/feature/zentrc20withoutctx
+merge the release_vm_shielded_4.0 branch
+fix database extension test for maven
+remove superfluous function
+fix the true.type ( ) == `` boolean ''
+fix some french translation
+allow operation to be extract in abstract form .
+migrate tabularexporter to use jsonnode
+add quickstatements export and preview
+move exception to own package
+re-locate operation test in correct folder
+bump the version
+merge branch 'origin/master ' into weblate .
+fix springboot compatible bug . ( # 47 )
+delete deprecate code . ( # 243 )
+add unit test for base64 and charsetfunctions
+revert a change in draft that be not require .
+fix the issue256test
+fix bug 834
+adapt dashboard selenium test for osio ( # 9448 )
+switch import rest method to json-rpc ( # 10440 )
+add k8s infrastructure for selenium test ( # 10384 )
+add env to editor
+add preference to plugin component of devfile ( # 13341 )
+remove selenium test from osio test group ( # 10450 )
+add openshiftenvironment and adapt openshift infra relate code
+add getname method to workspaceimpl
+add test for k8s/openshift component ambiguity detection
+add support for `` simple java '' project for jdt.ls ( # 8065 )
+add attribute field to serverconfig object
+merge pull request # 11248 from garagatyi/memoryfield
+merge remote-tracking branch 'origin/master '
+1. add setnestviw api to solve nest recyclerview
+merge pull request # 980 from frankkwok/master
+hide package-only type .
+save log to disk for share
+update sample to new 1.2 feature
+improve the adaptive sampling ; add some perf test coverage
+create gradle.yml
+merge branch 'master ' into develop_2.0
+add 公众号 页面
+optimize loaddata ( )
+merge pull request # 15414 from gdela/improvement/4.x/faster-tx-commit
+fix partitionmigrationlistenertest failure
+add getanddecrement method to iatomiclong ( # 17699 )
+add client protocol frame size limit
+merge pull request # 17369 from mdogan/cp-metrics
+remove operation from map and replicate map mbeans ( # 16238 )
+disallow null message on topic.publish
+allow diagnostics to log to logger
+add xauthmode param to getoauthrequesttoken to support reverse auth
+merge remote-tracking branch 'upstream/master ' into spdy-support
+fix 2 bug in twitter4j mbean support .
+add some logging message
+add support for screen_name to accountsettings
+merge remote-tracking branch 'origin/master '
+add discord link and fix more placement bug
+fixed many pathfinding issue
+implement new enemy spawning , sorter , teleporter and others
+save fix / implemented overdrive projector
+merge pull request # 35 from beefex/feature_fluid-rework
+implement many new weapon ( still break )
+add a thing to remove old build
+add new japanese translation
+merge branch 'master ' of http : //github.com/anuken/mindustry into mechs-balance-altfire
+merge branch 'master ' of http : //github.com/anuken/mindustry into 4.0
+merge branch 'remove-multithreading ' of http : //github.com/anuken/mindustry
+blend prototype
+reset my fork , start work on use power consumer
+implement various suggestion
+fix more bug , add support for tablet
+merge remote-tracking branch 'upstream/master ' into unit-stats
+merge branch 'master ' of http : //github.com/anuken/mindustry into 4.0
+name fix
+add @ echo off
+implement random map load filter
+clean up generation filter code
+update tcnative version
+add all miss generate file
+merge pull request # 271 from mis94/master
+create iworlddata and iworldprovider interface in api
+merge branch 'master ' into builder
+un-poz some command stuff
+create a blockstateinterface specialized iblockaccess wrapper
+ignore y coordinate for distance , fixes # 62
+merge branch 'master ' into builder
+simplify readme
+merge branch 'master ' into jl-contextsupport
+migrate junit5-engine test to junit 5
+add support for tag expression
+move xml report generator to ` legacy ` subpackage
+remove obsolete abortedwithreason/finishedwithfailure in eventconditions
+introduce junit-platform-reporting module
+populate testextensionregistry in junit5context and call methodparameterresolver
+move discoveryrequest and discoveryrequestbuilder to launcher.main package
+remove getname ( ) from testdescriptor
+merge pull request # 180 from hotchemi/hotchemi/patch2
+organize import across code base
+add @ api-annotations to all class
+introduce disclaimer for junit-commons
+rename executioneventrecordingengineexecutionlistener
+merge remote-tracking branch 'origin/master ' into jl-hierarchical-descriptor
+add a test for app configuration
+merge pull request # 1351 from lugaru1234/issue1348
+remove broken reference
+add support for @ apiimplicitparams at class level
+merge branch 'frantuma-issue_1482_refactor '
+merge branch 'master ' of http : //github.com/swagger-api/swagger-core into feature/readme_update_security
+add vendor extension where miss
+fix # 2233
+merge pull request # 2018 from schtephi/patch-1
+merge pull request # 962 from swagger-api/develop_2.0
+merge branch 'master ' into issue-3552
+merge pull request # 1299 from lugaru1234/issue1226
+merge branch 'gles2 ' into gles2_async
+merge pull request # 103 from nazgee/for-nicolas-gles20fixexception
+revert `` # 1703 update annotatedelement.java ''
+merge branch 'master ' into openapi-swagger
+upgrade micronaut dependency ( # 1765 )
+add more @ client example include
+remove okhttp from http-server-netty test and use native client
+merge pull request # 23 from jeffbrown/remove-unused-imports
+allow configuration of consulclient http setting
+improve debugging , add a test for offerscontroller.current ( )
+merge branch 'master ' into security_ldap
+move rabbitmq to https : //github.com/micronaut-projects/micronaut-rabbitmq
+merge branch ' 1.1.x ' of github.com : micronaut-projects/micronaut-core into 1.1.x
+merge pull request # 2022 from micronaut-projects/issue-1265
+make exception handle generic via exceptionhandler interface
+rename package . resolve # 596
+merge remote-tracking branch 'jsb/info-endpoint '
+populate annotation default at compile time
+optimize requirescondition
+finish up initial simple header binding
+merge pull request # 1685 from micronaut-projects/issue-1265
+merge remote-tracking branch 'upstream/master ' into micrometer_metrics_configuration
+fix case where scoped proxy be not inject correctly
+fix security-ldap package . add config prop to docs
+merge pull request # 470 from tardisoft/metrics-datasource
+remove readcomplete ( ) change to handlerpublisher
+merge pull request # 434 from marceloverdijk/issue-433
+allow invocation of function over http / add example
+merge pull request # 579 from micronaut-projects/jmx
+merge branch 'master ' of http : //github.com/jeffbrown/particle-framework
+merge branch 'master ' into issue-3106
+merge branch 'master ' of github.com : jeffbrown/particle-framework
+add test for native transport . cleanup
+merge branch 'master ' of http : //github.com/jeffbrown/particle-framework
+create xml module
+merge pull request # 2 from jeffbrown/doc_fixes
+merge branch 'master ' of github.com : micronaut-projects/micronaut-core
+add license to `` test-suite '' module
+merge pull request # 1360 from micronaut-projects/jwk-validator
+use new profile version
+merge remote-tracking branch 'origin/master '
+add javadoc to discovery-client @ configurationproperties class
+merge remote-tracking branch 'fork/master ' into cli
+merge branch 'master ' of http : //github.com/micronaut-projects/micronaut-core
+merge remote-tracking branch 'origin/master '
+rename annotation to filtermatcher / performance refactoring
+merge branch ' 1.0.x '
+make getcontenttype ( ) return optional
+normalize @ repeatable annotation metadata and add support for resolve
+implement discoveryclientroundrobinloadbalancer
+merge remote-tracking branch 'origin/master '
+exclude non-necessary property from param spec
+display change and fixed issue in build detail page
+merge branch 'master ' of http : //git.pmease.com/p/robin/commons
+add ace asset .
+add gitop.security and gitop.http ( for git http access ) .
+add sleepy job executor for test purpose
+improve viewstate handling
+add test for git log and tree browse command .
+add back to top feature . fix word diff error .
+enhance filechange to include file mode .
+add sessioninterceptor .
+remove entityloader .
+emphasize @ and \ escape in field description
+fix some minor bug
+add closeinfo to pull request .
+rename some property of branch/tag protection to avoid confusion
+display context obsolete alert of pull request comment
+add user manager .
+remove servlet/filter auto-configure from common project . instead add
+enhance top navigation area to work with mobile device
+add jersey a restful base .
+fix issue below :
+merge pull request # 728 from matthiasblaesing/setthreadexecutionstate
+change class < t > to class < t extend library > for native.loadlibrary
+update linux-x86 native
+use correct type mapper for service_failure_actions
+revise resource extraction to use explicit class loader
+rework the way allocated memory be track
+merge pull request # 558 from lwahonen/refiid_byvalue
+merge branch ' 5.0.0-dev ' of http : //github.com/codingapi/tx-lcn into 5.0.0-dev
+merge remote-tracking branch 'origin/feat/tm-load-balance ' into feat/tm-load-balance
+merge branch 'dev6.0 ' into dev6.0
+add a redirect option on node
+merge pull request # 74 from square/jw/synchronous
+allow digit in path parameter name
+add string converter support for all non-body annotation type .
+use the annotation directly for parameter handling .
+add transfer encode to multipart part .
+merge branch 'master ' of github.com : square/retrofit
+avoid some possible risk ( # 930 )
+refactor the redis session store ( # 3062 )
+fix the conscryptmiddleware disabling
+merge remote-tracking branch 'koush/mipmap ' into cm-11.0
+merge branch 'master ' into spdy
+impose death penalty for strictmode violation in the sample
+fix # 197
+replace nacos-core module http client ( # 3535 )
+use new code style for nacos-cmdb module . ( # 3289 )
+merge branch 'upstream-develop '
+custom the authorization exception handler
+merge pull request # 4 from alibaba/develop
+merge branch 'develop ' into study
+merge branch 'feature_subscription_by_query_optional ' into feature_multi_tenant
+merge branch 'develop ' into master
+merge branch 'develop ' of http : //github.com/chuntaojun/nacos into feature_service_curd
+merge branch 'develop ' of http : //github.com/alibaba/nacos into feature_1.3.0_beta_grpc
+merge pull request # 1752 from ly641921791/issue_1671
+merge pull request # 213 from paderlol/develop
+merge pull request # 2984 from showkawa/develop
+merge branch 'develop ' of http : //github.com/alibaba/nacos into feature_1.3.0_beta_grpc
+recheck all checkstyle and open checkstyle during building ( # 3293 )
+merge pull request # 438 from tburch/configurableviewrenderers
+deprecate bundle in favor of configuredbundle < t > ( # 2516 )
+merge pull request # 887 from arteam/hibernate_metrics
+merge pull request # 782 from ryankennedy/master
+add support for optional resource protection ( # 1931 )
+use our hibernate validator in jersey validation
+add test for dropwizard filter ( # 2199 )
+rename module to `` bundle '' .
+upgrade jetty to 9.4.0.v20161208 ( # 1875 )
+merge pull request # 1030 from arteam/abstract_ds
+add service-specific jackson module .
+merge pull request # 447 from wirde/fuzzyenumfix
+fix a bunch of warning .
+merge pull request # 597 from reines/extendable_classloader
+merge pull request # 998 from nickbabcock/testing-docs-fix
+fix some control meta cssmetadata
+fix 1st four demo
+refactoring css/fxml file
+merge branch 'master ' of http : //github.com/nutzam/nutz into nutzam-master
+merge pull request # 1027 from happyday517/master
+merge branch 'master ' of github.com : nutzam/nutz
+merge branch 'master ' of github.com : nutzam/nutz
+rewrite nut.sockets
+merge branch 'master ' of github.com : nutzam/nutz
+merge remote-tracking branch 'nutz/master '
+merge pull request # 1513 from tomyule/yhm
+merge branch 'master ' of github.com : nutzam/nutz
+merge pull request # 1538 from tomyule/test
+move the class from others papckage to default .
+restructure the repo
+merge pull request # 404 from divyeshjagatiya/master
+merge selection resource
+add config
+improve contrast on darker theme
+add new icon
+remove button highlight property
+add dbfactory
+add and refactoring test
+merge pull request # 52 from square/alok/jooq-remainingdao
+merge pull request # 130 from square/justin/pgjdbc-ng-driver
+replace deprecate getstringfield method
+add secretseriesjooqdao , which have the same api a secretseriesdao .
+merge branch 'master ' into master
+merge branch 'master ' of http : //github.com/immutables/immutables into postprocessor
+merge pull request # 844 from daicoden/attribute-builder-inconsistencies
+remove intermediate type from aggregation interface ( eg . aggregation.optionalnumberaggregation )
+merge pull request # 212 from io7m/master
+wip . naming style customisation infrastructure
+extend builder well work in eclipse # 107
+customize output package use packagegenerated style # 273
+provide a simple login module ( # 521 )
+update dubbo version to 2.7.7 ( # 605 )
+add more error-reporting fix and unit test .
+update license header
+simplify test to reduce use of wiring .
+update copyright , reformat and optimize import .
+set svn property
+add launch configuration support
+add @ override tag in generated code where appropriate
+expand loading/invocation
+add state marker queue to the factory
+move benchmarks to split handrolled from jmh
+added some single thread benchmark , more handrolled variant , cleanup
+remove wrong code
+add tangram op
+make cameraview thread-safe ( # 97 )
+frame processing maxwidth , maxheight and format ( # 704 )
+turn javadoc temporarly of ; service for mail sample
+organize import
+trigger some change
+merge remote-tracking branch 'origin/master ' into feature/jenkins-36211
+add logic to guard against duplicate fetch
+merge pull request # 320 from jenkinsci/bug/jenkins-36376
+merge branch 'master ' into feature/jenkins-35837-dashboard-favorites
+remove structure from interface hierachy .
+modify library to use the mutabledirectbuffer/directbuffer interface
+fix package name in generated value . issue # 459 .
+add a setvalue api to lottievalue ( # 588 )
+fixed some animation timing and rounding issue
+add push client
+merge dev
+merge branch 'master ' of gitlab.shinemo.com : mgys/mpush
+merge pull request # 3537 from apache/camel-14477
+remove usedom , handle ( ) , add rethrow ( )
+remove unnecessary import
+make a facade api for camelbeanpostprocessor .
+remove unused import
+add a getrouteid ( ) method to the routecontext
+upgrade camel-reactive-streams to junit5
+execute camel-etcd test with testcontainers
+merge pull request # 3692 from apache/camel-14811
+revert `` camel-13628 : drop directory-watcher dependency and related stuff ''
+upgrade camel-twitter to junit5
+remove camel-boon
+remove jaxb xmladapter from model .
+upgrade camel-xmlsecurity to junit5
+remove simple backwards parser
+upgrade kubernetes client and model to version 4.12.0
+move configurationclasses and routebuilderclasses to mainconfigurationproperties
+deprecate out in favour of getmessage on message api .
+upgrade camel-zipkin to junit5
+fix import
+remove redundant array creation on some log message ( # 4108 )
+upgrade camel-google-mail to junit5
+rename managementnamingstrategy to managementobjectnamestrategy
+fixed c for camel-rss
+merge branch 'master ' of github.com : apache/camel
+upgrade camel-hl7 to junit5
+make xml dumper it own model outside camel-core-engine
+add support for drivermanager and jdbc url-based pool configuration .
+fix some issue find by idea inspection
+add suport for dash
+fix pmd : redundantfieldinitializer - redundant field initializer .
+fix landscape stream item height
+merge pull request # 4 from chschtsch/refactor
+fix another pattern problem
+implement ui for subscription import/export
+merge remote-tracking branch 'upstream/dev ' into defaulttrending
+merge pull request # 2697 from redirion/exoplayer2105
+merge branch 'origin/dev ' into weblate .
+merge remote-tracking branch 'origin/dev ' into dev
+update gradle
+merge pull request # 1392 from karyogamy/exoplayer-2.8.0-update
+merge branch 'dev ' of github.com : teamnewpipe/newpipe into recaptcha
+merge pull request # 3511 from wb9688/ktlint
+merge branch 'download-manager ' of git : //github.com/satiricon/newpipe into satiricon-download-manager
+add copyright header and update sdk
+merge remote-tracking branch 'origin/master '
+merge branch 'dev ' into defaulttrending
+add fix extractor and move on to version 0.17.2
+add channel avatar
+merge branch 'license-dialog ' of http : //github.com/tobigr/newpipe into license
+rename resource
+merge pull request # 2956 from teamnewpipe/release_v0.18.1
+merge remote-tracking branch 'origin/master '
+merge remote-tracking branch 'origin/master '
+fix shutter open/close behavior
+add an event for the audio position advance
+add setter to mediasource factory for custom window tag .
+remove player and istoplevelsource parameter from mediasource.prepare .
+make loadeventinfo a top level class
+keep the paused state during buffer without playwhenready .
+remove redundant default parameter in parameter annotation
+remove playwhenreadycommitted .
+make drmsession acquire/release consistent with exomediadrm
+rename bufferprocessor to audioprocessor .
+enhance mp4 parsing .
+use a single set of track type constant .
+merge pull request # 215 from google/dev
+add nullable to message payload .
+open source downloadservice , downloadmanager and relate class
+introduce trackgrouparray .
+add support for ttml region .
+add audiosink interface and use it from audio renderers
+add mute/unmute to devicecomponent
+merge pull request # 138 from google/dev
+merge pull request # 114 from google/dev
+fix typo
+remove nullness warn suppression from matcher.group
+fix robolectric test when run with gradle
+remove some more core class from nullness blacklist
+add eia-608 ( cea-608 ) close caption support for hl # 68
+add new style webm extractor .
+merge branch 'dev-hls ' into dev
+mitigate the need for flag_allow_non_idr_keyframes
+add reference count to drmsession
+add id3 timed metadata support for hl # 67
+annotate render 's read source result
+remove unnecessary generic type
+remove downloadaction serialization
+add audioprocessor.audioformat
+add reason to ontimelinechanged .
+add basic hl support ( vod and live ) with ext-x-discontinuity .
+fix track selection nullability issue .
+migrate various call site to format.builder
+implement decryptablesamplequeuereader.isready
+merge pull request # 112 from google/dev
+merge remote-tracking branch 'origin/gt-2-dragonmacher-help-fixes-8-5-2020 '
+merge remote-tracking branch 'origin/ghidra_9.2 '
+merge remote-tracking branch 'origin/gt-3205-dragonmacher-test-method-fix ' into ghidra_9.1
+include ghidrasleigheditor in build .
+merge remote-tracking branch 'origin/gt-2824-dragonmacher '
+fix ghidradev compilation problem on non-macos platform .
+merge remote-tracking branch 'origin/gp-12_emteere_demanglesymbolapplicaton '
+consolidate bundle management into bundlehost
+merge remote-tracking branch 'origin/gt-3515-dragonmacher-column-constraints-docs '
+merge remote-tracking branch 'origin/gt-3396-dragonmacher-file-chooser-quick-lookup '
+merge remote-tracking branch 'origin/gt-2953_ryanmkurtz_pr-706_kant2002_pdb-test-cleanup '
+merge remote-tracking branch 'origin/gt-2875-dragonmacher-task-launcher-deadlock '
+remove some guava
+merge remote-tracking branch 'origin/ghidra_9.2 '
+merge branch 'ghidra1_ghidrascript_createlabel '
+merge remote-tracking branch 'origin/gt-2925-2-dragonmacher-provider-key-binding-fixup '
+fix typo in the readme file
+added direct reference to memoryblock.external_block_name instead of
+merge pull request # 46 from t101d/display_region
+tweak load control for faster loading
+add tint method to previewseekbar
+merge branch 'master ' of http : //github.com/azkaban/azkaban
+remove cache executorinfos and change default params for maxdispatchingerrors
+merge branch 'master ' into job-stats
+merge pull request # 477 from evlstyle/multipleexecutor
+merge pull request # 453 from evlstyle/master
+add metric for submission and time in queue ( # 2128 )
+merge branch 'master ' of github.com : azkaban/azkaban2
+merge pull request # 455 from logiclord/master
+merge branch 'master ' of http : //github.com/azkaban/azkaban into multipleexecutors_canary
+make executableflow initialization method common util method ( # 1543 )
+add project and permission .
+move capability check from routingrule to irealization
+merge branch 'inverted-index ' into stream
+add service api doc
+connect query engine and ii
+merge branch ' 0.7-staging ' of http : //git-wip-us.apache.org/repos/asf/incubator-kylin into 0.7-staging
+enhance watch for project when refresh page
+add log
+merge pull request # 380 from qhzhou/job_framework
+merge branch 'staging ' of http : //github.com/kylinolap/kylin into project2home
+merge branch 'inverted-index ' of http : //github.com/kylinolap/kylin into inverted-index
+add user define config for kylin.job.yarn.app.rest.check.status.url
+merge branch 'streaming-localdict ' of http : //github.com/kylinolap/kylin into streaming-localdict
+merge branch 'inverted-index ' of http : //github.com/kylinolap/kylin into inverted-index
+merge branch 'origin/inverted-index '
+add a test case
+merge branch 'inverted-index ' of http : //github.com/kylinolap/kylin into inverted-index
+merge branch 'inverted-index ' of http : //github.com/kylinolap/kylin into inverted-index
+merge branch 'minicluster ' of http : //github.com/kylinolap/kylin into minicluster
+merge branch 'inverted-index ' of http : //github.com/kylinolap/kylin into inverted-index
+merge pull request # 998 from wondercsabo/997_nothingselectedcorrectcall
+merge branch 'ydelouis-ignoredwhendetachedv2 ' into develop
+merge merge pr 654 : move some api class
+merge remote-tracking branch 'remotes/upstream/develop ' into 210_fragment_arguments
+add data binding support
+copy non aa annotation in generated class
+add basic @ background and @ uithread behavior ( no method parameter )
+merge pull request # 112 from excilys/111_eviewgroup_programmatically_instantiable
+merge pull request # 142 from excilys/63_singleton_scope
+fix @ trace crash in oncreate ( )
+implement eactivityhandler
+implement @ rootfragment annotation with it test
+implement onhandleintent for @ eintentservice accord to issue # 572
+merge pull request # 2069 from wondercsabo/2048_illegalstateexceptionreceiver
+add jrebel conf ignore
+retrieve audiomanager via application context as well .
+merge pull request # 579 from dhleong/475_rest_authentication
+merge branch 'ydelouis-782_fix_copynonaaannotations ' into develop
+merge remote-tracking branch 'origin/dev ' into dev
+improve the name resolution of archivable result in graalvmjimage .
+introduce maxjavastacktracedepth option on substratevm ( default 1024 ) .
+remove the class rulesmanager and daofacade .
+remove some usage of testutils
+fix jdk link download in travis build
+rename authorizationdao to permissiondao
+fix quality flaw
+remove some call to commons-collections
+move rownotfoundexception to org.sonar.db
+replace factor by coefficient
+remove dead code relate to elasticsearch utility
+fix quality flaw
+set branch w a public and fix description
+remove use of guava 's objects.equal
+move org.sonar.server.db to org.sonar.server.platform.db
+fix typo
+rename quality gate w class
+fix quality flaw
+deprecate remain java-specific stuff
+merge branch 'process-monitoring ' into branch-4.5
+generate client for api/rules
+upgrade assertj from 3.4.1 to 3.9.0
+improve org.sonar.api.sonarruntime
+fix assign_to_me issue action
+fix quality flaw
+move userdao to sonar-db
+remove dead code
+merge remote-tracking branch 'origin/release-2.14 '
+merge branch 'feature/it '
+rename web service with the xxxws form
+centralize algorithm of uuid generation
+fix administration package name
+merge pull request # 346 from sonarsource/feature/groups-ui
+fix and move perf test
+fix some quality flaw
+fix quality flaw
+fix test with asynchronous log
+fix quality flaw
+fix some quality flaw
+improve code coverage
+merge branch 'dev ' of github.com : carguo/gsyvideoplayer
+merge remote-tracking branch 'origin/master ' into 2.3.0
+add new file in java microprofile petstore client
+merge branch 'add_go_generator ' into oas3_support2
+merge pull request # 1862 from cbornet/feign_auth
+add version in property
+add apache2 license to qt5cpp
+keep php binary response a string for easy manipulation .
+add alias type definition for java
+add tizen generator
+add localvar prefix for `` response '' and `` builder ''
+update spring petstore example
+merge branch 'master ' of http : //github.com/openapitools/openapi-generator
+merge branch 'develop_2.0 ' into params-order
+update petstore sample
+update ruby sample
+add file post-processing to c++ client , server generator ( # 1440 )
+add colllectionformat support to retrofit
+merge pull request # 2612 from wing328/server_use_petstore_yaml
+add `` decimal '' support ( # 7808 )
+add authorization to retrofit client
+merge pull request # 2158 from xhh/java-improvements
+merge pull request # 2416 from wing328/perl_update_doc
+generate vertx oas2 ( # 226 )
+merge branch 'master ' of github.com : wordnik/swagger-codegen
+merge pull request # 2888 from akajla09/javatests
+skip null header/form parameter
+improve type check for closure-angular
+set default user default for ruby , php , python , java
+merge remote-tracking branch 'origin/develop_2.0 ' into java-auth
+use ismapschema in generator
+replace tab with space , update sample
+merge branch 'master ' of http : //github.com/swagger-api/swagger-codegen
+merge branch 'develop_2.0 ' of github.com : swagger-api/swagger-codegen into develop_2.0
+sanitize tuples properly ( # 3949 )
+merge pull request # 1028 from swagger-api/inflector-template
+merge pull request # 1909 from wing328/csharp_fix_null_apiclient
+fix package name for generator/online/generator.java
+fix dart2 default template ( # 3790 )
+merge pull request # 2421 from kkrauth/patch-1
+merge pull request # 3130 from taxpon/issue-3129-handle-204
+merge pull request # 2880 from zhenjun115/android_api_client
+add some test that be accidentally delete
+add auth support to feign library
+fix pmd : redundantfieldinitializer - redundant field initializer
+fix alias to map in the model 's property ( # 360 )
+merge pull request # 486 from wing328/php_fix_deserialize
+update readme with good app description
+merge branch 'master ' of http : //github.com/swagger-api/swagger-codegen
+allow extra configuration file
+add more sample
+merge branch 'develop ' of http : //github.com/owncloud/android into material_toolbar
+add renameoperation to operationsservice
+merge remote-tracking branch 'origin/develop ' into share_link__unshare_file
+merge branch 'master ' into oauth_login
+fix . remove incorrect 'values-tl_ph ' folder for allow project compilation
+merge branch 'develop ' into move_files_and_folders
+merge branch 'release-1.6.2 '
+merge pull request # 582 from owncloud/unsecured_server_connection
+merge branch 'develop ' of git @ github.com : owncloud/android.git into
+merge branch 'develop ' into favourites_context_menu
+merge branch 'develop ' into refactor_remote_operation_to_download_file
+merge branch 'saml_based_federated_single_sign_on ' into saml_based_federated_single_sign_on_expired
+merge branch 'develop ' into sso_bug_changing_orientation
+hide transfer progress bar in filefragments on download finish
+merge pull request # 337 from owncloud/refactor_remote_operation_to_upload_file
+merge branch 'develop ' of http : //github.com/owncloud/android into material_toolbar
+merge branch 'share_link__new_share ' into setup_additions
+merge branch 'develop ' into operations_service
+merge pull request # 324 from owncloud/last_minute_release-1.5.2
+merge pull request # 839 from fluffy88/develop
+merge branch 'develop ' into add_user_agent_support
+unwinds inheritance of inmemoryspanstore
+drop all dependency on the scala project
+completes java rewrite of spanstorespec
+begin migration off elasticsearch 2.x library ( and guava ) ( # 1495 )
+completes storage test conversion to v2 model
+deprecates v1 library before we stop publish it
+merge branch 'dev ' of http : //github.com/lukebars/react-native-push-notification
+merge branch 'master ' into fix/multirun-multinewparagraph
+bump up version of apache thrift
+zeppelin-3291 . throw exception instead of return null for interpreterfactory.getinterpreter
+merge branch 'master ' into auto_resize_iframe
+zeppelin-3595 . remove interpreter bind in backend
+add function getnotename ( ) in interpretercontext
+merge branch 'master ' into zan
+fix remoteresource.invokemethod ( )
+zeppelin-3976 . create abstractinterprter for common usage
+revert `` textview布局问题导致：「文件预览」无法看到文件最后几行 ''
+update doc
+merge branch 'master ' of http : //github.com/java-decompiler/jd-gui
+merge remote-tracking branch 'refs/remotes/web3j/master '
+merge pull request # 115 from earizon/earizon-getallhistoricforlogs
+merge pull request # 791 from web3j/feature/768-pubsub-docs
+merge pull request # 904 from nodesmith/master
+merge branch 'master ' of http : //github.com/web3j/web3j
+merge pull request # 903 from katzyn/function_cursor
+merge pull request # 1081 from cbvms123/tmp_transactionid
+merge pull request # 1496 from h2database/issue_1479
+parse timestamp without time zone a timestamp
+move newbytes ( ) and copybytes ( ) to utils
+merge remote-tracking branch 'upstream/master ' into test
+merge remote-tracking branch 'h2database/master ' into non_blocking
+rename regulartable to pagestoretable
+merge branch 'master ' of http : //github.com/h2database/h2database
+merge pull request # 936 from katzyn/pdf
+integrate jaqu ( java query )
+merge pull request # 2691 from auntyellow/aclitem_array
+move window function and base class into own package
+merge pull request # 1555 from catchwa/regexp_replace-ignore-global-flag
+merge pull request # 640 from stumc/issue # 628
+merge pull request # 1633 from h2database/issue_1632
+include filter in javaaggregate.getsql ( )
+remove mvtableengine wrapper and create store directly
+remove the
+merge pull request # 631 from plus33/master
+initialize allowbuiltinaliasoverride in database ( )
+merge pull request # 2542 from andreitokar/pipeline
+add and use column.getsql ( stringbuilder )
+merge remote-tracking branch 'upstream/master ' into 1091_new
+move getmainindexcolumn ( ) to tablebase for reuse
+merge pull request # 961 from scay/scay-issue # 960
+add package.html file and license header
+merge remote-tracking branch 'origin/master '
+merge pull request # 1127 from katzyn/misc
+remove and ignore generate file .
+merge pull request # 451 from maxenglander/enum-support
+add feature f262 : extend case expression
+add possibility to mark non-standard part in bnf
+add support for in-memory spatial index .
+merge pull request # 1413 from grandinj/gc_gather_io2
+rename callthread to task .
+remove unwanted map even if non-empty
+merge pull request # 145 from leo-from-spb/master
+remove useless math.floor and add block scope
+disallow comparison operation between incomparable data type
+convert tab to 4 space
+merge pull request # 912 from weibocom/feature/exportrandomport
+merge pull request # 44 from radarhere/patch-1
+merge pull request # 33 from sunnights/refactor-manager-registry
+merge pull request # 124 from tangdi/master
+add demo start shell
+merge pull request # 12071 from pferraro/transaction
+merge pull request # 13504 from bstansberry/wfly-13188
+merge remote-tracking branch 'upstream/master ' into ee-9
+combine update with general deploymentunitprocessor refactoring .
+enable jboss enterprise maven repository
+upgrade wildfly-core from 7.0.0.cr1 to 7.0.0.final
+merge pull request # 11982 from jamezp/sm-integ-basic
+merge pull request # 13555 from ehsavoie/wfly-12574
+merge pull request # 11867 from rsvoboda/wfly-11390
+merge pull request # 12347 from rhusar/wfly-12144
+merge pull request # 12282 from jimma/wfly-12070
+merge pull request # 13478 from jimma/wfly-12765
+replace deprecate mockito matcher class with argumentmatchers
+allow expression for ordinal attribute
+merge pull request # 13003 from rhusar/wfly-13024
+merge pull request # 13116 from bstansberry/wfly-13242
+add openapi extension use smallrye openapi implementation
+merge pull request # 12353 from darranl/wfly-12179
+provide capability for undertow http_upgrade_registry
+merge pull request # 13282 from pferraro/infinispan
+add tck test execution for openapi .
+merge pull request # 12449 from fl4via/wfly-12321
+merge remote-tracking branch 'upstream/master ' into ee-9
+rename event/context getexecutions - > getattemptcount
+replace internal duration impl with java.time.duration
+merge branch 'room_experiments ' of http : //github.com/archie94/haven into archie94-room_experiments
+merge branch 'fixlintissues ' of http : //github.com/fat-tire/haven into fat-tire-fixlintissues
+merge branch 'master ' of http : //github.com/flowable/flowable-engine
+merge pull request # 496 from roberthafner/skipexpressionsupportforgateways
+add some getter and setter to delegatetask .
+added additional task
+add multi-tenancy channel/event support to bpmn engine
+add web service task
+merge pull request # 605 from dbmalkovsky/singleton
+add executehistoryjob method to managementservice
+merge pull request # 916 from filiphr/fix-spring-boot-ldap-compilation
+remove duplicate starttx from batchtransactionapplier
+detach bolt worker thread from transaction .
+replace mockito.verifyzerointeractions with mockito.verifynointeractions
+remove additional data from record proxy . prototype .
+rename recordload.force_normal to always .
+propagate tracer to index statistic store and indexing service
+rename labelscanlayout - > tokenscanlayout
+add metric for transaction size
+consolidate heap and native in memory limit
+merge pull request # 552 from tibor17/junit.new
+remove redundant interface modifier
+merge branch 'master ' of git : //github.com/kentbeck/junit
+merge branch 'head ' of git : //github.com/kentbeck/junit.git
+fail single-datapoint method keep their original stack trace
+merge branch 'run-leaf ' of http : //github.com/kcooney/junit into kcooney-run-leaf
+merge branch 'master ' into multiple-failure-exception
+clean up whitespace in junit38classrunner .
+merge pull request # 415 from adriannistoruiuc/patch-1
+introduced channel interface
+merge branch 'master ' into verify-call-sites
+allow quasar to work with multiple classloaders .
+make actorrefdelegate an interface
+rename unsafe - > unsafe
+merge remote-tracking branch 'remotes/upstream/master ' into stc-refactor
+merge pull request # 282 from timyates/documentation
+merge branch 'master ' into documentation
+remove dead code
+remove deprecate class
+merge branch 'master ' into groovy-5924
+fix some serializable incompatible issue ( some more )
+remove vm5 dirs for groovy package
+merge pull request # 256 from jacopoc/clthreadsafety
+remove some codenarc/checkstyle warning
+merge pull request # 297 from alessiostalla/patch-1
+merge pull request # 124 from andresteingress/groovy-5940
+fix return type inferrence of getat ( ) for array
+merge branch 'grumpy ' into experimental-static-compiler
+remove deprecate code
+merge pull request # 552 from donnerpeter/asm-resolve
+merge pull request # 1653 from bhamiltoncx/codegen-unicode-escapes
+fix contributor merge conflict
+fix initialization of atnconfig when compute sll prediction
+prepare release
+delete legacy test
+fix special template for test
+merge pull request # 361 from parrt/master
+resolve contribs conflict
+merge pull request # 9 from antlr/prepare-release-4.5
+merge branch 'master ' into tree-patterns
+add diagram bump version to 4.5
+add support for $ self
+move exception over from v3 runtime . add bitset defs ..
+merge pull request # 57 from parrt/master
+fix # 1298 for csharp
+add old stuff back in .
+miss import
+update doc for release
+merge pull request # 7 from antlr/explorer-tests
+remove unnecessary variable initialization
+merge pull request # 52 from parrt/master
+merge branch 'master ' into stack-graphs-integration
+merge branch 'err-msgs-upgrade '
+merge branch 'master ' into dart-clean
+get a draft implementation
+remove all deprecate method
+merge pr # 1457 into master .
+merge branch 'master ' of http : //github.com/spring-cloud/spring-cloud-netflix
+add zuul property to customize hystrix executionisolationstrategy
+merge pull request # 1225 from coveord/fix-content-length
+fix test
+merge pull request # 1293 from ryanjbaxter/upgrade-stream
+merge remote-tracking branch 'origin/2.1.x '
+move many zuul string to filterconstants .
+merge pull request # 53 from choefele/fix-warnings
+fix bad merge for pointquadtree
+merge branch 'tracks_multitracks_altitudes ' of http : //github.com/noberasco/android-maps-utils
+add info window click listener
+merge pull request # 776 from jixuan1989/cassandra-tracing-function
+merge branch 'improvedrng ' of git : //github.com/sears/ycsb into sears-improvedrng
+merge pull request # 651 from manolama/hbase10_init
+merge pull request # 609 from kruthar/orientdb-create
+fix typo ( # 3030 )
+optimize retry for failbackregistry . ( # 2763 )
+merge branch ' 2.7.3-release '
+add logback
+merge remote-tracking branch 'origin/master '
+merge remote-tracking branch 'origin/master '
+ignore deserilization when service/method not find ( # 5733 )
+add checkstyle ( # 1558 )
+merge branch 'cloud-native ' of github.com : apache/incubator-dubbo into cloud-native
+edit comment , edit metadata identify path
+update change log
+add update with payload
+merge pull request # 27124 from ibaqu/master_copy_projapi
+rename gettype ( ) - > type ( )
+add hierarchical schema
+merge pull request # 27048 from nipunaranasinghe/debugger-semantic-based-expressions-2
+move qualifier into a ordered-list
+merge pull request # 27130 from ballerina-platform/trx-new-changes
+reword module to package
+added additional test for where-chaining .
+merge pull request # 215 from markuspfeiffer/dev-migration
+refactored some more
+fix local environment point to gcp & update documentation
+remove old handler
+migrate usage of deprecate mockito method and package .
+remove deprecate portability-web
+define callback url in the frontend , rather than api
+merge branch 'master ' into microhard-to-deal-with
+merge pull request # 355 from google/google-distro-worker
+merge pull request # 1111 from crackerstealth/master
+merge pull request # 2895 from cdjackson/zwave-database_updates
+fix log period in /rrdchart.png chart servlet
+merge pull request # 2242 from pierok13/master
+merge remote-tracking branch 'upstream/master ' into davis_binding
+tidy code . link rout request to get neighbor
+merge pull request # 3545 from cdjackson/zwave-database_updates
+merge branch 'yamahareceiver ' of http : //github.com/sumnerboy12/openhab into sumnerboy12-yamahareceiver
+merge pull request # 699 from aheil/maxcube
+merge pull request # 1514 from tomtrath/davis_binding
+merge pull request # 3460 from johkin/master
+merge pull request # 2704 from cdjackson/zwave-database_updates
+merge pull request # 1534 from crackerstealth/opensprinklerenhance
+remove the yahoo weather provider ( # 5702 )
+merge branch 'zwave-initialisation ' into zwave-initialisation_state
+added configurable command resend interval . make switching of nexa
+merge branch 'master ' into zwave-cfg
+merge pull request # 1565 from digitaldan/z-wave-leviton-vrs15-1lz
+merge branch 'anel ' of http : //github.com/paphko/openhab into paphko-anel
+merge pull request # 2890 from skynethome/widom
+handle correction of issue # 1848
+merge pull request # 3954 from speederc/speederc-rfxcom-chime
+merge branch 'master ' into zwave-cfg
+add zipato/wintop rfid tag reader
+add file via upload
+merge pull request # 599 from paulianttila/open-energy-monitor-binding
+add the leviton vrs15-1lz to the database
+merge pull request # 4014 from cdjackson/zwave-database_updates
+fix error cast wakeup class
+delete example.txt
+merge branch 'master ' of http : //github.com/openhab/openhab into zwave-endpoint_default_to_zero
+update pull request http : //github.com/openhab/openhab/pull/2884 to
+add settocontroller to association group
+merge pull request # 2501 from cdjackson/zwave-database_updates
+merge remote-tracking branch 'upstream/master '
+merge pull request # 4028 from robnielsen/master
+merge remote-tracking branch 'upstream/master ' into debfiles
+merge pull request # 2626 from dennis650/onewire-binding
+merge pull request # 2696 from cdjackson/zwave-database_updates
+merge pull request # 904 from babusekaran/embedsfromhooks
+win ui look good with a locator strategy
+rename http-request to builder
+merge update from common fileupload to r1455031
+simplify some # tostring ( ) method
+implement session timeouts
+merge update from common fileupload to r1456912
+rename mapping to servletmapping
+remove some suppresswarnings annotation that be not necessary
+fix bz 64548 - generate jpms metadata
+add support ( with test ) for read-only web resource set .
+replace boolean.valueof ( string ) .booleanvalue ( ) with boolean.parseboolean ( ) .
+make certificate and manifest available
+reduce visibility a recommend by ucdetector
+copy jaspic 1.0 api from geronimo
+implement client and server async timeout
+fix http : //issues.apache.org/bugzilla/show_bug.cgi ? id=55958
+fix spell in coyote , el , jasper and naming
+remove unused code .
+add i18n for mbeans package .
+remove unused dump ( ) method
+pull up common protocol initial setting
+remove json-simple from zookeeper
+fix ipv6 literal usage
+add server side connect throttle
+add additional security metric to zookeeper
+fix package tangle - > oauth2/oidc authenticationprovider 's
+add badopaquetokenexception
+allow withsecuritycontexttestexecutionlistener to execute after @ before
+introduce logoutsuccessevent
+repackaging adapter module .
+save post parameter on authenticationentrypoint redirect .
+add rsocket authentication extension support
+add nonce to oidc authentication request
+add test to oauth2-client
+refactoring out specific dependency on spring el into securityexpressionhandler .
+tidy up captcha spelling .
+promote openid out of the sandbox
+rename oauth2tokenintrospectionclient
+make `` janusgraphmr.ioformat.filter-partitioned-vertices '' option work
+merge branch ' 0.4 '
+fix failure in titaneventualgraphtest
+merge pull request # 1347 from porunov/refactor-graphdatabaseconfiguration
+merge pull request # 1413 from gdatasoftwareag/issue_1364_deprecatedmethods
+rewrite bytebufferutil # hashcode ( ... ) method
+add confignamespace/configoption to titan-hadoop
+add query optimization time to profile
+add well or support for mixed index .
+merge branch 'master ' into infinispan
+merge branch 'master ' of github.com : thinkaurelius/titan
+tweak comprehensive test profile
+rename primarykey to sortkey
+merge branch 'titan09 ' of http : //github.com/thinkaurelius/titan into titan09
+add test of evcs transaction handle
+allow titan server to initialize scriptengine with a script .
+merge pull request # 511 from sjudeng/es6
+introduce janusgraphmanagerutility # getinstance
+add property and connection constraint
+cover readconfigurationbuilder with unit test
+merge branch 'master ' of http : //github.com/wdullaer/materialdatetimepicker
+merge pull request # 911 from mcculls/dependency-stack-performance
+replace some usernames in todos .
+add configrenderoptions and configvalue # render ( option )
+add support for unquoted string value
+fix all the javadoc warning
+fix a bunch of compile-time warning , minor doc tweak
+merge branch 'groovy-1.7 ' into groovy-1.8
+merge branch 'groovy-1.7 ' into groovy-1.8
+remove accidental import
+merge branch 'groovy-1.7 ' into groovy-1.8
+merge branch 'groovy-1.7 ' into groovy-1.8
+merge branch 'groovy-1.7 ' into groovy-1.8
+merge branch 'groovy-1.7 ' into groovy-1.8
+update javadoc
+merge branch 'groovy-1.7 ' into groovy-1.8
+merge branch 'groovy-1.7 ' into groovy-1.8
+merge branch 'groovy-1.7 ' into groovy-1.8
+remove unnecessary repo definition
+have space on empty for iterator pad
+fixed # 407 : primitive handling for nested property work
+fix some deprecation
+add filteringnotifier
+catch error in compositenotifier and resume with next
+catch error in compositenotifier and resume with next
+add optional retry of failed request .
+update readme
+improve the command project
+change seekbar attr and improve ticksize precision
+opt layout
+merge pull request # 137 from zzzxdm/stu_dev_771668756
+merge pull request # 81 from bladeandmaster88/stu_dev_1650687527
+merge remote-tracking branch 'source/stu_dev ' into stu_dev
+merge pull request # 5377 from peisun1115/netty-rpc
+add worker port
+improve node locality test
+add nullable annotation to parameter .
+update hive doc a advised
+merge pull request # 4785 from jsimsa/merge-1.4
+merge pull request # 6078 from alluxio/branch-1.6
+add warning to validateenv command ( # 6750 )
+simplify logic in seekinternalwithcachingpartiallyreadblock .
+backup the current journal implementation to journalv0
+merge pull request # 5303 from jsimsa/cleanup
+merge pull request # 5302 from gpang/classloader
+fix domain socket flag .
+update doc
+merge pull request # 5139 from chengshuo0020/master
+create filesystemmasterclient and filesystemworkerclient interface .
+add new parameterized property for mount table
+fix build
+merge pull request # 6345 from aaudiber/zk-failure-test
+merge branch 'extension-shell ' into extension-cloader
+make metastore to track pagestore size
+improve read request side
+address review comment .
+add chinese document of clients-rest.md
+fix two typo
+add option in registertask method .
+improve read handler
+merge remote-tracking branch 'origin/s3 ' into merge-s3-to-master
+merge remote-tracking branch 'upstream/master ' into fuse-docs
+merge pull request # 6626 from biaos/smallfix-12-17-01
+merge remote-tracking branch 'upstream/master ' into user-access-audit
+add todos
+add getreplica .
+address review comment .
+merge pull request # 5505 from luqqiu/timepropertykey2
+sort the module in top-level pom .
+simplify lock list downgrade
+merge pull request # 5930 from yupeng9/remove-lock-downgrade
+fix a bug when unregisteredchannelfired
+save cluster on test failure
+fix style
+merge pull request # 6580 from pasalab/docfix-2017120603
+merge pull request # 5429 from peisun1115/bugfix
+remove getconfkey from alluxio command
+merge branch 'merge-1.7 '
+merge pull request # 4905 from apc999/alluxio-2426
+fix hostname resolution for ha in k8s
+make copyfromlocal use round robin by default
+merge pull request # 4867 from maobaolong/patch-9
+remove usage of thriftioexception
+merge pull request # 5490 from calvinjia/merge-1.5
+merge pull request # 5141 from jsimsa/fix
+add safe mode check to master
+fix pom for hadoop- { 1,2.2,2.3,2.4 }
+update the propertykey.java
+rename exceptionstatus to status
+put version variable in alphabetical order .
+rename gettradesasobservablelist to getobservablelist
+upgrade jfoenix to v9.0.10
+remove unused dummy metric
+add sepa instant payment
+add miss initpersisteddatahosts call . refactorings
+merge remote-tracking branch 'origin/pr/501 ' into development
+merge remote-tracking branch 'upstream/master '
+merge pull request # 3189 from gordonel/patch-1
+merge remote-tracking branch 'upstream/master ' into improve-info-during-trade-process
+merge branch 'master_upstream ' into improve-startup-routines
+check param count only , not param order correctness
+rename btc_dao_testnet2 to btc_dao_regtest
+fix issue cause invalid vote reveal tx
+add line break in front of port config
+merge pull request # 1502 from manfredkarrer/master
+add comment on bsq trade fee calculation
+resolve more cyclic package dependency
+improve ui , log and error handling
+merge pull request # 4787 from chimp1984/various-monitor-improvements
+merge pull request # 4347 from sqrrm/deposit-improvements
+remove akka-based seed node infrastructure ( for now )
+add popmoney ( # 1273 )
+replace occurances of bitsquare with bisq
+merge pull request # 4436 from chimp1984/bundle-msg-at-broadcast
+rename clock to clockwatcher
+merge pull request # 4725 from ghubstan/18-reduce-methodtest-time
+move 'ignoredevmsg ' option handling to config
+improve cheaper fee screenshot and popup layout
+merge pull request # 2939 from freimair/envelope_of_envelopes
+merge branch 'development ' into stresstest
+implement issuance and vote result calculation ( wip )
+add general style for consolidation
+merge pull request # 2207 from manfredkarrer/preparations-for-http-api
+add input validation
+add btc node qxjrxmhyqp5vy5hj.onion
+improve proposal and voting view
+remove `` pricenode '' direct dependency on `` asset ''
+add support for referrer id at offer and trade
+fix bug with tx broadcast state
+protect priority issue from stale bot
+move util code from ui to core
+move maker class back to desktop module
+add assettxproofhttpclient interface
+merge pull request # 2447 from manfredkarrer/dao-serverside-regtest
+merge pull request # 2395 from ripcurlx/add-multiple-stablecoins
+merge branch 'master ' into development
+reflect pricenode operator change in providersrepository
+merge change from master
+merge pull request # 1272 from ripcurlx/hotfix/fix-spread-sorting
+merge branch 'master ' into popup-at-trade-completed
+rename onparsetxscomplete to onparsetxscompleteafterbatchprocessing
+add connection icon , handleerror case in one method
+move class
+merge branch 'development ' into paymentaccountageverification
+merge pull request # 3009 from niyid-bisq/master
+add vote reveal type . adjust bsq fee . refactorings .
+inject corrupteddatafileshandler instead of make it static
+optimize application shutdown
+merge branch 'master_upstream ' into add-tether-pinguin
+add optimize permutation algo
+move fee verification task to end
+add popup or vote result per proposal
+fix name of l-usdt asset to tether usd ( liquid )
+merge pull request # 4685 from chimp1984/update-monitor-with-last-version-from-freimairs-repo
+merge pull request # 4817 from chimp1984/improve-filter
+move protocryptoutil method to encryptionservice
+merge branch 'master ' into development
+add p2pnetworkreadylistener
+remove empty onparsetxscompleteafterbatchprocessing method
+move i.b.gui.viewloader.java = > viewfx.view.support.viewloader
+add sign witness filter ( # 4124 )
+add callback for broadcaster when send mailbox msg
+introduce viewfx.view.support.cachingviewloader
+rename pricefeed to pricefeedservice
+fix unchecked usage of localbitcoinnode.isusable ( )
+merge branch 'master ' into development
+merge pull request # 2077 from ripcurlx/bug-fixes
+handle no-webcam case
+rename staticprogressindicator to txconfidenceindicator
+update user name in license header
+move ruledefinitionreader + related class to a dedicated package
+update v2.1 修改bug ( 散点，气泡，折线，面积等图 )
+update v1.3 增加平滑曲线图 , 感谢cmeiyuan提供算法支持。
+update v2.2 轴标题及圆形图相关更新
+fix librariesuniquetask change order of classpath
+remove lastexception in task.variables
+copy instance . close # 687
+add i18n
+merge branch 'master ' of http : //github.com/huanghongxun/hmcl
+fixed # 23
+reset the java directory when javadir be wrong .
+surround frescosystrace beginsection and endsection with istracing check
+replace originalencodedinfo with extra
+revert d8248139 : add configuration option for bitmap count limit
+add strict nullsafe annotation to cache package
+add support for arquillian and configuration of the arquillian
+merge pull request # 314 from alexsm82/master
+remove generate file
+merge pull request # 156 from blabno/jaxrs-angularjs
