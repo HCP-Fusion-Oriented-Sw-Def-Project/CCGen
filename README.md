@@ -1,1 +1,1 @@
-# PCMG
+# CCGen
